@@ -31,7 +31,7 @@ Since the beginning of JavaScript, there have been minor changes - more so tweek
 
 Ultimately, if you have never tried to use JavaScript or have and just didn’t like the experience, ES6 has brought great improvements and flexibility to the language.  My first experience with writing in JavaScript was in 2005 and was not impressed.  I thought the language lacked structure and was difficult to read.  I gave the language about 10 hours of thought before discounting its brilliance.  Now, in 2020, I’m revisiting JavaScript and after 10 days it has easily risen to be one of my top three favorite programming languages.  Understanding where JavaScript comes from and where it is going is important to truly appreciate the true elegance and versatility of the language.  Can you give JavaScript 10 days of trial?
 
-## Work Cited
+### Work Cited
 
 Cassel, D. (2018, August 27). Brendan Eich on Creating JavaScript in 10 Days, and What He'd Do Differently Today. Retrieved January 13, 2020, from https://thenewstack.io/brendan-eich-on-creating-javascript-in-10-days-and-what-hed-do-differently-today/
 
