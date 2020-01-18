@@ -27,7 +27,7 @@ Brendan Eich understood that neglecting sleep and working for 10 days straight w
 
 Since the beginning of JavaScript, there have been minor changes - more so tweeks - that have been widely accepted by the community as great improvements.  These releases have made significant impact, but it’s a slow process.  The most recent release, ES6, included some much needed improvement that increased how similar JavaScript looks and feels like Python.  The first being default values for parameters in the function definition.  
 ```
-let link = function(height = 100, color = 'red', url = 'https://craigopie.github.io') {
+let link = function(url = 'https://craigopie.github.io') {
   ...
 }
 ```
