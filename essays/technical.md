@@ -25,7 +25,24 @@ Brendan Eich understood that neglecting sleep and working for 10 days straight w
 
 ## Time affects experience and expectations
 
-Since the beginning of JavaScript, there have been minor changes - more so tweeks - that have been widely accepted by the community as great improvements.  These releases have made significant impact, but it’s a slow process.  The most recent release, ES6, included some much needed improvement that increased how similar JavaScript looks and feels like Python.  The first being default values for parameters in the function definition.  Second, template literals allow programmers to incorporate variables into strings without having to concatenate the strings.  This simplifies ease of reading the code and actually speeds up the browser compilation time.   Finally, employing multiline strings have never been easier by utilizing back-ticks to write block strings, similar to Python’s triple quotes.
+Since the beginning of JavaScript, there have been minor changes - more so tweeks - that have been widely accepted by the community as great improvements.  These releases have made significant impact, but it’s a slow process.  The most recent release, ES6, included some much needed improvement that increased how similar JavaScript looks and feels like Python.  The first being default values for parameters in the function definition.  
+```
+let link = function(height = 100, color = 'red', url = 'https://craigopie.github.io') {
+  ...
+}
+```
+Second, template literals allow programmers to incorporate variables into strings without having to concatenate the strings.  This simplifies ease of reading the code and actually speeds up the browser compilation time.   
+```
+const name = `Your name is ${first} ${last}.`
+let url = `https://craigopie.github.io/${id}`
+```
+Finally, employing multiline strings have never been easier by utilizing back-ticks to write block strings, similar to Python’s triple quotes.
+```
+let roadPoem = `American hypocrisy, 
+                oh, let me count the ways
+                They came here seekin' freedom
+                Then they end up ownin' slaves,`
+```
 
 ## 10 days of work deserves 10 days of trial 
 
@@ -36,3 +53,5 @@ Ultimately, if you have never tried to use JavaScript or have and just didn’t 
 Cassel, D. (2018, August 27). Brendan Eich on Creating JavaScript in 10 Days, and What He'd Do Differently Today. Retrieved January 13, 2020, from https://thenewstack.io/brendan-eich-on-creating-javascript-in-10-days-and-what-hed-do-differently-today/
 
 Mardan, A. (2015, November 10). Top 10 ES6 Features Every Busy JavaScript Developer Must Know. Retrieved January 13, 2020, from https://webapplog.com/es6/
+
+J. Cole (2017, January 16). High for Hours. Retrieved January 17, 2020, from https://soundcloud.com/j-cole
