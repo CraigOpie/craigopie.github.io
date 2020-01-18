@@ -3,7 +3,7 @@ layout: essay
 type: essay
 title: Not Impressed With JavaScript? Give it 10 Days...
 # All dates must be YYYY-MM-DD format!
-date: 2018-10-11
+date: 2020-01-17
 labels:
   - Technical
   - JavaScript
