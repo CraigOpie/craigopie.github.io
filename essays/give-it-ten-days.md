@@ -26,18 +26,18 @@ Brendan Eich understood that neglecting sleep and working for 10 days straight w
 ## Time affects experience and expectations
 
 Since the beginning of JavaScript, there have been minor changes - more so tweeks - that have been widely accepted by the community as great improvements.  These releases have made significant impact, but it’s a slow process.  The most recent release, ES6, included some much needed improvement that increased how similar JavaScript looks and feels like Python.  The first being default values for parameters in the function definition.  
-```
+```javascript
 let link = function(url = 'https://craigopie.github.io') {
   ...
 }
 ```
 Second, template literals allow programmers to incorporate variables into strings without having to concatenate the strings.  This simplifies ease of reading the code and actually speeds up the browser compilation time.   
-```
+```javascript
 const name = `Your name is ${first} ${last}.`
 let url = `https://craigopie.github.io/${id}`
 ```
 Finally, employing multiline strings have never been easier by utilizing back-ticks to write block strings, similar to Python’s triple quotes.
-```
+```javascript
 let roadPoem = `American hypocrisy 
                 oh, let me count the ways
                 They came here seekin' freedom
