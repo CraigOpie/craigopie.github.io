@@ -52,6 +52,6 @@ Ultimately, if you have never tried to use JavaScript or have and just didn’t 
 
 Cassel, D. (2018, August 27). Brendan Eich on Creating JavaScript in 10 Days, and What He'd Do Differently Today. Retrieved January 13, 2020, from https://thenewstack.io/brendan-eich-on-creating-javascript-in-10-days-and-what-hed-do-differently-today/
 
-Mardan, A. (2015, November 10). Top 10 ES6 Features Every Busy JavaScript Developer Must Know. Retrieved January 13, 2020, from https://webapplog.com/es6/
-
 J. Cole (2017, January 16). High for Hours. Retrieved January 17, 2020, from https://soundcloud.com/j-cole
+
+Mardan, A. (2015, November 10). Top 10 ES6 Features Every Busy JavaScript Developer Must Know. Retrieved January 13, 2020, from https://webapplog.com/es6/
