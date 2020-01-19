@@ -38,10 +38,10 @@ let url = `https://craigopie.github.io/${id}`
 ```
 Finally, employing multiline strings have never been easier by utilizing back-ticks to write block strings, similar to Python’s triple quotes.
 ```
-let roadPoem = `American hypocrisy, 
+let roadPoem = `American hypocrisy 
                 oh, let me count the ways
                 They came here seekin' freedom
-                Then they end up ownin' slaves,`
+                Then they end up ownin' slaves`
 ```
 
 ## 10 days of work deserves 10 days of trial 
