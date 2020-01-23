@@ -12,9 +12,9 @@ labels:
 
 I firmly believe that a software engineer is only as good as the time and effort they take to learn more about development, and practicing pragmatic applications of their knowledge.  The process of becoming a great software engineer requires certain skills and experiences that I hope to develop as an ICS major progressing towards a doctorate in computer science.  Skills that directly improve efficiency of speed and memory during code execution, experience working collaboratively to identify and correct vulnerable code, and developing the ability to balance learning and self development with work related deadlines. 
 
-<img class="ui large center floated image" src="../images/inequality.png">
-
 ## Work smarter, not harder
+
+<img class="ui large right floated image" src="../images/inequality.png">
 
 Computing technology has changed drastically over the past twenty years.  Hardware in the late 1990’s provided faster computers by increasing the clock frequency which equated to more calculations per second.  Eventually, Intel reached a design maximum near 2004 with the Pentium 4 processor which was largely due to thermal dissipation restrictions and logic circuit setup and hold times.  Since then, circuit makers such as Intel, AMD, and Micron have focused on increasing chip density to perform more calculations which has led to the production of processors that house multiple cores.  Understanding how these processor cores are utilized and how memory is managed between them is vital to solving every software development company's primary challenge; moreover, providing the user with a real-time application that performs advanced functions without having to wait.  
 
