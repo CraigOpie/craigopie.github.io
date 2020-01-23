@@ -8,7 +8,7 @@ labels:
   - Technical
 ---
 
-<img class="ui medium right floated image" src="../images/inequality.png">
+<img class="ui large right floated image" src="../images/inequality.png">
 
 ## Not all software engineers are created equal
 
