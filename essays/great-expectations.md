@@ -8,11 +8,11 @@ labels:
   - Technical
 ---
 
-<img class="ui large right floated image" src="../images/inequality.png">
-
 ## Not all software engineers are created equal
 
 I firmly believe that a software engineer is only as good as the time and effort they take to learn more about development, and practicing pragmatic applications of their knowledge.  The process of becoming a great software engineer requires certain skills and experiences that I hope to develop as an ICS major progressing towards a doctorate in computer science.  Skills that directly improve efficiency of speed and memory during code execution, experience working collaboratively to identify and correct vulnerable code, and developing the ability to balance learning and self development with work related deadlines. 
+
+<img src="../images/inequality.png">
 
 ## Work smarter, not harder
 
