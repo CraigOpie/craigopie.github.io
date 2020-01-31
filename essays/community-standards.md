@@ -6,6 +6,9 @@ title: StackOverflow is Littered with Garbage Questions
 date: 2020-01-30
 labels:
   - Technical
+  - Smart Questions
+  - Community Standards
+  - Sustainability
 ---
 
 <img class="ui large left floated image" src="../images/sustainable-future.jpg">
@@ -26,7 +29,7 @@ It is rare that we come across an issue that has not been experienced by someone
 
 Most complicated problems will not be solved by spending a few seconds performing a Google search.  Sometimes, problems stem from a lack of understanding syntax or proper use of libraries.  Issues regarding a lack of knowledge should be resolved through research.  Reading the applicable documentation and frequently asked questions can usually solve most difficulties.  Other times, clarification from co-workers or interacting with pertinent google groups may be necessary to fill in knowledge gaps but should not be over used.  Lastly, reading available source code can be very beneficial and allow you to fully understand how a library is executing specific functions.  Becoming the subject matter expert is usually ideal but impractical; instead, become knowledgeable enough to have confidence and proficiency with the issue at hand.
 
-<img class="ui small right floated image" src="../images/sustainability.jpg">
+<img class="ui medium right floated image" src="../images/sustainability.jpg">
 
 Confidence and proficiency means that you are able to identify relevant information necessary to solve the problem.  This means identifying the appropriate community, and community expectations, to submit your question.  Ensure your question is on topic and posted in the correct portion or subsection of the forum or site.  An example of asking a question in the wrong forum can be seen <a href="https://stackoverflow.com/questions/59980621/need-ideas-in-developing-a-script-to-extract-links-from-a-website">here</a> as the author asked an opinion based question on a focus driven forum.  Start your question off by explaining the environment, your process, steps you took while trying to debug, and any related websites or documentation to support your research.  Afterwards, providing relevant portions of your code where issues present itself is extremely helpful, but including expectations and results about your code will result in more accurate and timely assistance.  Be sure to include applicable line numbers and error messages when describing your problems.  A great example of proper code insertion can be observed here as the user asks for assistance with a jquery date-picker. 
 ```javascript
@@ -34,7 +37,7 @@ $(".date-picker:not('#act_event_ends_on')").datepicker();
 $('#act_event_ends_on.date-picker').datepicker({ startDate: '0', endDate: '+180d' });
 ```
 The author identifies a snippet of applicable code and includes it with text describing how it is handled before including the handlers code.
-```html
+```javascript
 <input class="required date-picker input-small align-center" id="act_event_ends_on" name="act_event[ends_on]" size="30" type="text">
 ```
 
@@ -50,7 +53,7 @@ Most importantly, when the solution is found, be sure to identify the solution t
 
 ## Community standards do not maintain themselves
 
-Enforcement of the three ‘R’s to questioning techniques is the only way to ensure the future generations’ time and space will not be jeopardized or wasted by unintelligible questions that have a high search engine index due to the number of people repeatedly visiting a forum thread to a common problem with no useful information.  Community enforcement demands each of us to become familiar with community standards, demonstrate community standards, and educate others about community standards.  A`ohe hana nui ke alu `ia is a Hawai`ian phrase that translates as “no task is too big when done together by all” and is a demonstration that sustainability is the responsibility of a community.  Our community’s climate change beings with you.
+Enforcement of the three ‘R’s to questioning techniques is the only way to ensure the future generations’ time and space will not be jeopardized or wasted by unintelligible questions that have a high search engine index due to the number of people repeatedly visiting a forum thread to a common problem with no useful information.  Community enforcement demands each of us to become familiar with community standards, demonstrate community standards, and educate others about community standards.  A'ohe hana nui ke alu 'ia is a Hawai'ian phrase that translates as “no task is too big when done together by all” and is a demonstration that sustainability is the responsibility of a community.  Our community’s climate change beings with you.
 
 
 ### Work Cited
