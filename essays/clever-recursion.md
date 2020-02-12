@@ -9,7 +9,7 @@ labels:
   - RSA Encryption
 ---
 
-<img class="ui medium left floated image" src="../images/encryption.jpg">
+<img class="ui large left floated image" src="../images/encryption.jpg">
 
 ## Connection is secure?..
 
