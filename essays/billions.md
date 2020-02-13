@@ -60,6 +60,6 @@ Perez, E., & Shortell, D. (2019, March 01). North Korean-backed bank hacking on 
 
 Perlroth, N. (2019, March 03). As Trump and Kim Met, North Korean Hackers Hit Over 100 Targets in U.S. and Ally Nations. Retrieved May 1, 2019, from https://www.nytimes.com/2019/03/03/technology/north-korea-hackers-trump.html
 
-Tyupkin Virus (Malware) | ATM Security. (n.d.). Retrieved April 29, 2019, from https://www.kaspersky.com/resource-center/threats/tyupkin-malware-atm-security-malware
+Tyupkin Virus (Malware) ATM Security. (n.d.). Retrieved April 29, 2019, from https://www.kaspersky.com/resource-center/threats/tyupkin-malware-atm-security-malware
 
 Winn, P., & Winn, P. (2018, May 16). How North Korean hackers became the world's greatest bank robbers. Retrieved April 30, 2019, from https://gpinvestigations.pri.org/how-north-korean-hackers-became-the-worlds-greatest-bank-robbers-492a323732a6
