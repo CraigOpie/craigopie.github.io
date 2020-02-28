@@ -9,7 +9,7 @@ labels:
   - UI Frameworks
 ---
 
-<img class="ui medium right image" src="../images/ui-frameworks-1.png">
+<img class="ui large center image" src="../images/ui-frameworks-1.png">
 
 ## UI Frameworks are not simple
 
