@@ -10,7 +10,7 @@ labels:
   - React
 ---
 
-<img class="ui medium centered image" src="../images/campuslife.jpg" alt="" />
+<img class="ui large centered image" src="../images/campuslife.jpg" alt="" />
 
 ## Overview
 <i>The problem:</i> Planning for events on any of the University of Hawaii campuses requires event planners to
