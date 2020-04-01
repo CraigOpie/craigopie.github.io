@@ -30,50 +30,46 @@ rescheduled.
 
 ## Use case ideas
 The completed use case shows an end-to-end scenario of using the system.  
-<list>
-    <ul>
-        New user goes to the landing page, sees an upcoming event they are interested in attending, clicks the 
-        image/link and sees more details, clicks the button to register for the event, is brought to a 
-        login/registration page, registers the user in the system and then automatically adds the user to the event's 
-        registration, the user sees a confirmation they are registered and is sent to their personal profile page.
-    </ul>
-    <ul>
-        User is emailed upon registering for an event and 48/24/2 hours before event to remind them of the event and 
-        includes a link to remove their registration from the event.
-    </ul>
-    <ul>
-        Admin user goes to landing page, logs in, returns to landing page, can click on any event, event displays an
-        option for the admin to move the event date/time/location or delete the event. 
-    </ul>
-    <ul>
-        Admin user goes to landing page, logs in, returns to landing page, clicks a link to approve new events, new
-        events page shows information about user and the information submitted about the event, admin user has buttons
-        to approve or deny the request and is prompted for a reason for denial, an email is then sent to the user
-        to inform them of their submission status with the message from the admin, if event was approved, the system
-        auto-generates the required forms using information gathered from the user and emails them to the responsible 
-        department for review CC'ing the user for response/followup questions/information.
-    </ul>
-    <ul>
-        Admin's are emailed to notify of new event registration requiring approval.
-    </ul>
-</list>
+<li>
+    New user goes to the landing page, sees an upcoming event they are interested in attending, clicks the 
+    image/link and sees more details, clicks the button to register for the event, is brought to a 
+    login/registration page, registers the user in the system and then automatically adds the user to the event's 
+    registration, the user sees a confirmation they are registered and is sent to their personal profile page.
+</li>
+<li>
+    User is emailed upon registering for an event and 48/24/2 hours before event to remind them of the event and 
+    includes a link to remove their registration from the event.
+</li>
+<li>
+    Admin user goes to landing page, logs in, returns to landing page, can click on any event, event displays an
+    option for the admin to move the event date/time/location or delete the event. 
+</li>
+<li>
+    Admin user goes to landing page, logs in, returns to landing page, clicks a link to approve new events, new
+    events page shows information about user and the information submitted about the event, admin user has buttons
+    to approve or deny the request and is prompted for a reason for denial, an email is then sent to the user
+    to inform them of their submission status with the message from the admin, if event was approved, the system
+    auto-generates the required forms using information gathered from the user and emails them to the responsible 
+    department for review CC'ing the user for response/followup questions/information.
+</li>
+<li>
+    Admin's are emailed to notify of new event registration requiring approval.
+</li>
 
 ## Beyond the basics
 After implementing basic functionality, here are ideas for more advanced features:
-<list>
-    <ul>
-        Smartphone map showing location of the event and how to get there.
-    </ul>
-    <ul>
-        Smartphone notification of upcoming events that the user is registered for or new events as they are posted.
-    </ul>
-    <ul>
-        Links or additional information about guest speakers.
-    </ul>
-    <ul>
-        Text message notifications for registered events.
-    </ul>
-    <ul>
-        Monthly updates/reminders of upcoming events if the user has not logged in for a given period of time.
-    </ul>
-</list>
+<li>
+    Smartphone map showing location of the event and how to get there.
+</li>
+<li>
+    Smartphone notification of upcoming events that the user is registered for or new events as they are posted.
+</li>
+<li>
+    Links or additional information about guest speakers.
+</li>
+<li>
+    Text message notifications for registered events.
+</li>
+<li>
+    Monthly updates/reminders of upcoming events if the user has not logged in for a given period of time.
+</li>
