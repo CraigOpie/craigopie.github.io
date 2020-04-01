@@ -29,7 +29,7 @@ host an event; and Admins, who will review the events for validity or move/remov
 rescheduled.
 
 ## Use case ideas
-The completed use case shows an end-to-end scenario of using the system.  
+The completed use case shows an end-to-end scenario of using the system:  
 <li>
     New user goes to the landing page, sees an upcoming event they are interested in attending, clicks the 
     image/link and sees more details, clicks the button to register for the event, is brought to a 
