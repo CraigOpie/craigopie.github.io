@@ -5,7 +5,7 @@ image: https://github.com/manoalist/manoalist.github.io/tree/master/doc/landing.
 title: Manoalist
 permalink: projects/manoalist
 # All dates must be YYYY-MM-DD format!
-date: 2020-01-10
+date: 2020-04-25
 labels:
   - Meteor
   - React
@@ -13,7 +13,7 @@ labels:
 summary: An application for UHM students to facilitate buying and selling of student-related goods and service.
 ---
 
-<img class="ui image" src="https://github.com/manoalist/manoalist.github.io/tree/master/doc/landing.png">
+<img class="ui image" src="{{ site.baseurl }}/images/manoalist/landing.png">
 
 # TABLE OF CONTENTS
 ***
@@ -64,7 +64,7 @@ The first page seen when accessing the site. Provides a brief introduction to ho
 
 <a href="http://mymanoalist520.meteorapp.com/#/">Landing page</a>
 
-<img src="https://github.com/manoalist/manoalist.github.io/tree/master/doc/landing.png" width="70%" alt="landing mockup">
+<img src="{{ site.baseurl }}/images/manoalist/landing.png" width="70%" alt="landing mockup">
 
 ### Sign Up
 
@@ -72,7 +72,7 @@ If you do not have an account, you can click sign up to register:
 
 <a href="http://mymanoalist520.meteorapp.com/#/signup">Sign up page</a>
 
-<img src="https://github.com/manoalist/manoalist.github.io/tree/master/doc//signup.png" width="70%" alt="sign up">
+<img src="{{ site.baseurl }}/images/manoalist/signup.png" width="70%" alt="sign up">
 
 ### Sign In
 
@@ -80,7 +80,7 @@ You can click log in to access your account:
 
 <a href="http://mymanoalist520.meteorapp.com/#/signin">Sign in page</a>
 
-<img src="https://github.com/manoalist/manoalist.github.io/tree/master/doc//signin.png" width="70%" alt="log in">
+<img src="{{ site.baseurl }}/images/manoalist/signin.png" width="70%" alt="log in">
 
 ### Home
 
@@ -88,7 +88,7 @@ After logging in, you will see the home page for you to start shopping. You can 
 
 <a href="http://mymanoalist520.meteorapp.com/#/home">Home page</a>
 
-<img src="https://github.com/manoalist/manoalist.github.io/tree/master/doc//home.png" width="70%" alt="user home">
+<img src="{{ site.baseurl }}/images/manoalist/home.png" width="70%" alt="user home">
 
 ### List Items
 
@@ -97,7 +97,7 @@ See what items are available on the site.
 <a href="http://mymanoalist520.meteorapp.com/#/list">List item page</a>
 
 
-<img src="https://github.com/manoalist/manoalist.github.io/tree/master/doc//list.png" width="70%" alt="list item">
+<img src="{{ site.baseurl }}/images/manoalist/list.png" width="70%" alt="list item">
 
 
 # DEVELOPER GUIDE
@@ -126,8 +126,6 @@ $ meteor npm run start
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). You can login using the credentials in settings.development.json, or else register a new account.
 
 <br/><br/>
-
-[Back to table of contents](#table-of-contents)
 
 
 Source: <a href="https://github.com/manoalist/manoalist"><i class="large github icon "></i>manoalist</a>
