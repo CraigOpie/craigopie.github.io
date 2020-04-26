@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: {{ site.baseurl }}/images/manoalist/landing.png
+image: {{ site.baseurl }}/images/manoalist/landing_sm.png
 title: Manoalist
 permalink: projects/manoalist
 # All dates must be YYYY-MM-DD format!
