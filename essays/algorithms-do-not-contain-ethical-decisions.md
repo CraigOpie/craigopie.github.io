@@ -32,4 +32,6 @@ The third principle of the code of ethics for software engineers’ states “en
 It is unethical to deploy a machine capable of killing without allowing a method for licensed human passengers to take control of the machine in extreme and uncertain circumstances; moreover, this is especially true when a licensed human operator is readily available.  Driving a car is an action that has a complementary work allocation between the vehicle and the operator.   Sensors supporting self-driving vehicles can dramatically increase response time and minimize hazards during operation, but they should not replace the decision-making process related to high risk situations.  Simply put, algorithms do not contain ethical decisions.
 
 ### Work cited
+[1]G. Schweitzer, Mechatronics for the Design of Human-Oriented Machines. IEEE/ASME, 2020.
 
+[2]"Why Self-Driving Cars Must Be Programmed to Kill", MIT Technology Review, 2020. [Online]. Available: https://www.technologyreview.com/2015/10/22/165469/why-self-driving-cars-must-be-programmed-to-kill/. [Accessed: 25- Apr- 2020].
