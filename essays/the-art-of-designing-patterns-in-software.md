@@ -86,8 +86,8 @@ In JavaEE utilizing the @Singleton annotation with the above code requires the o
 Understanding more than just what a design pattern is and where it should be used is fundamental to deploying a successful application that is reliable and secure.  Using a design pattern that is tried and true increases the probability for successful runtime operations and improves useability amongst development teams, but software engineers must burden the responsibility of fully understanding how their code will execute and what vulnerabilities will be exposed when implementing widely used design patterns.
 
 ### Work cited
-https://sourcemaking.com/design_patterns
-https://www.linkedin.com/learning/java-ee-design-patterns-and-architecture/
-https://archive.org/details/codecomplete0000mcco
-http://courses.ics.hawaii.edu/ics314s20/morea/design-patterns/reading-screencast-introduction-design-patterns.html
+https://sourcemaking.com/design_patterns <br />
+https://www.linkedin.com/learning/java-ee-design-patterns-and-architecture/ <br />
+https://archive.org/details/codecomplete0000mcco <br />
+http://courses.ics.hawaii.edu/ics314s20/morea/design-patterns/reading-screencast-introduction-design-patterns.html <br />
 http://courses.ics.hawaii.edu/ics314s20/morea/design-patterns/reading-screencast-bowfolios-design-patterns.html
