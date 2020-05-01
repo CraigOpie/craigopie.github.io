@@ -47,11 +47,11 @@ public class PoolSupervisor {
         // constructor here
     }
 
-    Public static synchronized PoolSupervisor getInstance() {
+    public static synchronized PoolSupervisor getInstance() {
         if (instance == null) {
-            Instance = new PoolSupervisor();
+            instance = new PoolSupervisor();
         }
-        Return instance;
+        return instance;
     }
 }
 ```
@@ -75,7 +75,7 @@ public class PoolSupervisor {
     }
 
     public Object borrowObject() {
-        Return pooledObjects.poll();
+        return pooledObjects.poll();
     }
 }
 ```
