@@ -3,15 +3,6 @@ layout: default
 robots: noindex
 ---
 <!--<div class="main-post-list">-->
-  <script>
-    if (hideEssays) {
-      document.getElementById("projects").style.display = contents;
-      document.getElementById("essays").style.display = none;
-    } else {
-      document.getElementById("essays").style.display = contents;
-      document.getElementById("projects").style.display = none;
-    }
-  </script>
   <ul id="projects" class="timeline">
     {% for project in site.data.projects %}
       <li class="timeline-inverted">
