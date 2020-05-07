@@ -1,5 +1,4 @@
 # projects section data
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following items.
 - name: Manoalist
   gh_user: manoalist
   repo: manoalist

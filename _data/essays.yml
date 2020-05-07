@@ -1,0 +1,15 @@
+# essays section data
+- name: The Art of Designing Patterns in Software
+  img: /images/java-beans.jpeg
+  file: the-art-of-designing-patterns-in-software.md
+  desc: Design patterns are methods used to solve problems that programmers typically see when dealing with objects in collaborative works.
+
+- name: Algorithms { !ethics }
+  img: /images/computer-vision.png
+  file: algorithms-do-not-contain-ethical-decisions.md
+  desc: Software engineers isn’t the first group of professionals that comes to mind when discussing ethics, but their job consistently demands analysis of development, testing, and deployment of applications that support the health, safety, and welfare of the public.
+
+- name: Covid 19 - A Simple College Student's Perspective on a World Wide Infection
+  img: /images/coronavirus.jpg
+  file: covid-19.md
+  desc: As I sit atop of a barstool for a chair at my makeshift desk in my living room, my two-year-old son hugs my leg and begs me to play with him.
