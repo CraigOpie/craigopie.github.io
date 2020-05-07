@@ -3,7 +3,7 @@
 - name: Manoalist
   gh_user: manoalist
   repo: manoalist
-  img: https://github.com/manoalist/manoalist/blob/master/app/public/images/manoalist-circle.png
+  img: https://github.com/manoalist/manoalist/blob/master/app/public/images/manoalist-circle.png?raw=true
   desc: An application for UHM students that facilitates buying and selling student goods.
 
 - name: NASA Student Lanch Project
@@ -15,5 +15,5 @@
 - name: Electronic Power Supply
   gh_user: CraigOpie
   repo: eps
-  img: https://github.com/CraigOpie/craigopie.github.io/blob/master/images/eps.png
+  img: /images/eps.png
   desc: A self developed low-cost electronic power supply for cubesats with features comparable to market standards.
