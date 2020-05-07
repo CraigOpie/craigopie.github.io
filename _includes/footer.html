@@ -1,5 +1,7 @@
-<!-- Always create iframes to embed videos if present. See: http://semantic-ui.com/modules/embed.html -->
+<footer class="footer">
+  <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved.</span>
+</footer>
 
-<script>
-  $('.ui.embed').embed();
-</script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/main.js?{{site.time | date: '%s%N'}}"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/github_api.js?{{site.time | date: '%s%N'}}"></script>

@@ -1,27 +1,33 @@
 # Site settings
+title: Craig Opie
+description: 'Business Card Page'
+url: 'http://craigopie.github.io'
+baseurl: ''
+profilepic: '/images/sm_portrait.jpg'
+bkimage: '/images/background.jpg'
+google_analytics: UA-XXXXXX-X
+font_awesome: 'XXXXXXXXXX.js'
 
-# REQUIRED CHANGES
-# Edit next line, providing your own name.
-title: Craig Opie | Professional Portfolio
-# Edit next line, replacing 'techfolios' with your github username
-url: "https://craigopie.github.io"
-# Edit next line so that baseurl is "" if your repo is <username>.github.io
-baseurl: ""
+author:
+  name: 'Craig Opie'
+  email: craig@hawaii.edu
+  github_username:  CraigOpie
+  linkedin_username:  craig-opie-90a98553
 
-# OPTIONAL CHANGES
-# You might want to change the bio page label to something else, such as CV
-bio-page-label: Resume
-# You might want to change the theme associated with one or more sections of the site.
-# Defining your own custom theme variations is easy. See the documentation.
-theme-home: theme-home-builtin-2.html
-theme-projects: theme-projects-builtin-2.html
-theme-essays: theme-essays-builtin-2.html
-theme-bio: theme-bio-builtin-2.html
-
-# Specify the rouge syntax highlighter theme. Pick one from css/rouge.
-rouge-theme: igorpro
-
-# YOU NORMALLY NEVER CHANGE THE FOLLOWING
+# Build settings
+destination: _site
 markdown: kramdown
-include: [_data]
+highlighter: rouge
 
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png']
