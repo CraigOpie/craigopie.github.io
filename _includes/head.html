@@ -49,11 +49,10 @@
   <meta name="theme-color" content="#ffffff">
   
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css?{{site.time | date: '%s%N'}}">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
   <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
   <script src="https://kit.fontawesome.com/{{ site.font_awesome }}" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+
   {% if site.google_analytics %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
