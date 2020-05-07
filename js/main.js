@@ -5,6 +5,7 @@ sitemap:
 ---
 
 $(document).ready(function () {
+  var hideEssays = true;
   $('a.panel-button').click(function (e) {
     //if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     if ($('.content-wrapper').hasClass('showing')){
@@ -42,6 +43,13 @@ $(document).ready(function () {
   })
 
   $('.navigation-wrapper .projects-button').click(function () {
+    hideEssays = true;
+    $('.navigation-wrapper').toggleClass('visible')
+    $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+  })
+
+  $('.navigation-wrapper .essays-button').click(function () {
+    hideEssays = false;
     $('.navigation-wrapper').toggleClass('visible')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
   })
