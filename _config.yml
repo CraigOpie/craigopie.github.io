@@ -6,7 +6,7 @@ baseurl: ''
 profilepic: '/images/sm_portrait.png'
 bkimage: '/images/backgroundalt.jpg'
 google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+font_awesome: 'f13480f45a.js'
 
 author:
   name: 'Craig Opie'
