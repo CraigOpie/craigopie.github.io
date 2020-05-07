@@ -4,7 +4,7 @@ description: 'Business Card Page'
 url: 'http://craigopie.github.io'
 baseurl: ''
 profilepic: '/images/sm_portrait.png'
-bkimage: '/images/background.jpg'
+bkimage: '/images/backgroundalt.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'f13480f45a.js'
 
