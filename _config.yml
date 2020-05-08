@@ -1,7 +1,8 @@
 # Site settings
+
 title: Craig Opie
-description: 'Business Card Page'
-url: 'http://craigopie.github.io'
+description: 'Professional Portfolio'
+url: 'https://craigopie.github.io'
 baseurl: ''
 profilepic: '/images/sm_portrait.png'
 bkimage: '/images/backgroundalt.jpg'
@@ -14,20 +15,24 @@ author:
   github_username:  CraigOpie
   linkedin_username:  craig-opie-90a98553
 
-# Build settings
+bio-page-label: Resume
+theme-home: theme-home.html
+theme-projects: theme-projects.html
+theme-essays: theme-essays.html
+theme-bio: theme-bio.html
+rouge-theme: igorpro
+
 destination: _site
 markdown: kramdown
 highlighter: rouge
+include: [_data]
 
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 
 kramdown:
-  # use Github Flavored Markdown
   input: GFM
-  # do not replace newlines by <br>s
   hard_wrap: false
 
-#plugins: ['jekyll-paginate']
 exclude: ['README.md', 'screenshot-overview.png']
