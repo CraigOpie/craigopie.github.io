@@ -1,12 +1,14 @@
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   {% if page.robots %}
   <meta name="robots" content="{{ page.robots }}">
   {% endif %}
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- Load meta files and CSS for formatting -->
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
   <meta name="author" content="{{ site.author.name }}">
   <meta name="HandheldFriendly" content="True">
@@ -15,19 +17,12 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
-  {% if site.author.twitter_username %}
-  <meta name="twitter:creator" content="{{ site.author.twitter_username }}">
-  {% endif %}
-  <meta name="twitter:image" content="{{ site.baseurl }}/images/favicons/favicon-194x194.png" />
-
   <meta property="og:type" content="article">
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:image" content="{{ site.baseurl }}/images/favicons/favicon-194x194.png" />
 
+  <!-- Load rel links for CSS formatting -->
   <link rel="apple-touch-icon" sizes="57x57" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="{{ site.baseurl }}/images/favicons/apple-touch-icon-72x72.png">
@@ -47,23 +42,40 @@
   <meta name="msapplication-TileColor" content="#ffc40d">
   <meta name="msapplication-TileImage" content="{{ site.baseurl }}/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
-  
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css?{{site.time | date: '%s%N'}}">
+
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css?{{ site.time | date: '%s%N' }}">
   <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}{% endif %}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml">
   <script src="https://kit.fontawesome.com/{{ site.font_awesome }}" crossorigin="anonymous"></script>
 
+  <!-- Load Javascript and CSS for Semantic UI
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/css/semantic-ui/semantic.js"></script>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/semantic-ui/semantic.css"> -->
+
+  <!-- Load Techfolio CSS customizations
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/stylesheet-default.scss">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/stylesheet-customizations.scss">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/print-default.scss" media="print">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/print-customizations.scss" media="print">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/rouge/{{ site.rouge-theme }}.css"> -->
+
+  <!-- Load MathJax if 'mathjax: true' is found in your _config.yml.
+  {% if site.mathjax %}
+  <script type="text/javascript"
+          src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  {% endif %} -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
   {% if site.google_analytics %}
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-      gtag('config', '{{ site.google_analytics }}');
-    </script>
-
+    gtag('config', '{{ site.google_analytics }}');
+  </script>
   {% endif %}
 
 </head>
