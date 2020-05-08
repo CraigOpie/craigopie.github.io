@@ -16,4 +16,11 @@
       {{ include.page.content | markdownify | strip_html | truncatewords: 40 }}
     </div>
   </div>
+  <div class="extra content">
+    <div class="ui mini labels">
+      {% for label in include.page.labels %}
+      <div class="ui basic label">{{ label }}</div>
+      {% endfor %}
+    </div>
+  </div>
 </li>
