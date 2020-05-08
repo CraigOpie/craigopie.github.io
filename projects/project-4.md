@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/manoalist/landing_sm.png
+image: images/manoalist.jpg
 title: Manoalist
 gh_user: manoalist
 repo: manoalist
