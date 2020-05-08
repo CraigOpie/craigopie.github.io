@@ -17,43 +17,37 @@
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
         <div class="navigation-wrapper">
-
-          <nav class="cover-navigation navigation--social">
-            <!--<nav class="cover-navigation cover-navigation--primary">-->
-            <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/essays/" title="link to Essays" class="panel-button projects-button"><i class="fa fa-file-alt"></i>&nbsp;Essays</a></li>
+              <a href="{{ site.baseurl }}/essays/" title="link to Essays" class="panel-button projects-button"><i class="fa fa-file-alt"></i>&nbsp;Essays</a>
               {% if site.author.linkedin_username %}
               <!-- LinkedIn -->
-              <li class="navigation__item">
+
                 <a href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank">
                   <i class="fa fa-linkedin"></i>
                   <span class="label">LinkedIn</span>
                 </a>
-              </li>
+
               {% endif %}
 
               {% if site.author.github_username %}
               <!-- GitHub -->
-              <li class="navigation__item">
+
                 <a href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank">
                   <i class="fa fa-github"></i>
                   <span class="label">GitHub</span>
                 </a>
-              </li>
+
               {% endif %}
 
               {% if site.author.email %}
               <!-- Email -->
-              <li class="navigation__item">
+
                 <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
                   <i class="fa fa-envelope"></i>
                   <span class="label">Email</span>
                 </a>
-              </li>
+
               {% endif %}
-              <li class="navigation__item"><a href="{{ site.baseurl }}/projects/" title="link to Projects" class="panel-button projects-button"><i class="fa fa-project-diagram"></i>&nbsp;Projects</a></li>
-            </ul>
-          </nav>
+              <a href="{{ site.baseurl }}/projects/" title="link to Projects" class="panel-button projects-button"><i class="fa fa-project-diagram"></i>&nbsp;Projects</a>
         </div>
       </div>
     </div>
