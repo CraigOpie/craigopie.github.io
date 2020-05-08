@@ -19,13 +19,11 @@
         <div class="navigation-wrapper">
 
           <nav class="cover-navigation navigation--social">
+            <!--<nav class="cover-navigation cover-navigation--primary">-->
             <ul class="navigation">
-              <!--<nav class="cover-navigation cover-navigation--primary">-->
-              <nav class="cover-navigation navigation--social">
-                <ul class="navigation">
-                  <li class="navigation__item"><a href="{{ site.baseurl }}/essays/" title="link to Essays" class="panel-button projects-button"><i class="fa fa-file-alt"></i>&nbsp;Essays</a></li>
-                </ul>
-              </nav>
+              <li class="navigation__item"><a href="{{ site.baseurl }}/essays/" title="link to Essays" class="panel-button projects-button"><i class="ui file-alt icon"></i>&nbsp;Essays</a></li>
+            </ul>
+            <ul class="navigation">
 
               {% if site.author.linkedin_username %}
               <!-- LinkedIn -->
@@ -51,19 +49,17 @@
               <!-- Email -->
               <li class="navigation__item">
                 <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <i class="fa fa-envelope"></i>
+                  <i class="ui envelope icon"></i>
                   <span class="label">Email</span>
                 </a>
               </li>
               {% endif %}
 
             </ul>
-          </nav>
 
           <!--<nav class="cover-navigation cover-navigation--primary">-->
-          <nav class="cover-navigation navigation--social">
             <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/projects/" title="link to Projects" class="panel-button projects-button"><i class="fa fa-project-diagram"></i>&nbsp;Projects</a></li>
+              <li class="navigation__item"><a href="{{ site.baseurl }}/projects/" title="link to Projects" class="panel-button projects-button"><i class="ui project-diagram icon"></i>&nbsp;Projects</a></li>
             </ul>
           </nav>
         </div>
