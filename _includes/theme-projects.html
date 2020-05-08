@@ -1,0 +1,8 @@
+<ul id="projects" class="timeline">
+  {% for project in site.data.projects %}
+  {% for page in project_pages %}
+    {% unless page.draft %}
+      {% include project-row.html page=page %}
+    {% endunless %}
+  {% endfor %}
+</ul>
