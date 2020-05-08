@@ -12,7 +12,7 @@ labels:
   - Sustainability
 ---
 
-<img class="ui large left floated image" src="../images/sustainable-future.jpg">
+<img class="ui large left floated image" src="../images/sustainable-future.jpg" alt="" width="200" />
 
 ## The three ‘R’s of sustainability take on a new meaning for software engineers
 

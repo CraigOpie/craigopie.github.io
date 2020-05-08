@@ -10,7 +10,7 @@ labels:
   - RSA Encryption
 ---
 
-<img class="ui large left floated image" src="../images/encryption.jpg">
+<img class="ui large left floated image" src="../images/encryption.jpg" alt="" width="200" />
 
 ## Connection is secure?..
 

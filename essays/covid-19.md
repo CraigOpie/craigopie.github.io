@@ -10,7 +10,7 @@ labels:
   - Coronavirus
 ---
 
-<img class="ui medium left floated image" src="../images/coronavirus.jpg">
+<img class="ui medium left floated image" src="../images/coronavirus.jpg" alt="" width="200" />
 
 ## Looking inwards
 

@@ -15,7 +15,7 @@ labels:
   - MongoDb
 ---
 
-<img class="ui medium left floated image" src="../images/java-beans.jpeg">
+<img class="ui medium left floated image" src="../images/java-beans.jpeg" alt="" width="200" />
 
 ## Doing things right, the first time
 

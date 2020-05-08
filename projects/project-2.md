@@ -15,7 +15,7 @@ labels:
 summary: Arduino applications for a rover and deployment mechanism built for the NASA Student Launch Project 2019.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/TeamPhoto.jpg">
+<img class="ui medium right floated rounded image" src="../images/TeamPhoto.jpg" alt="" width="200" />
 
 This project is comprised of two Arduino Sketchs that I created for the NASA Student Launch Project, Spring 2019. The event consisted of building a rover as a payload in a rocket that went to an altitude of 5,000 feet, then deploy the rover after it is safely on the ground, and moving at least 10 feet from the landing site to collect a 10 mL soil sample.  The project helped me learn how to design and implement an Arduino Sketch to communicate via XBee radios, drive dc motors, and use ultra sonic sensors to prevent object collisions.  
 

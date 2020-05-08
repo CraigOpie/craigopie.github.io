@@ -10,13 +10,13 @@ labels:
   - UI Frameworks
 ---
 
-<img class="ui large center image" src="../images/ui-frameworks-1.png">
+<img class="ui large center image" src="../images/ui-frameworks-1.png" alt="" width="200" />
 
 ## UI Frameworks are not simple
 
 Semantic UI is a UI Framework that is extremely complex but doesn’t really do anything the average programmer can’t do without time and effort.  This begs the question of, “what does one get in return for the investment of time and frustration? Why not just use raw HTML and CSS?”  The answer has everything to do with teamwork.
 
-<img class="ui medium right floated image" src="../images/ui-frameworks-2.png">
+<img class="ui medium right floated image" src="../images/ui-frameworks-2.png" alt="" width="200" />
 
 Having a UI Framework allows multiple collaborators to work on the same web site with a known standard of formatting and styles.  This allows content creators to use the standard library to create their content without having to develop their own stylesheets.  Having a team that all use the same UI Framework saves time during development, proofreading other team members code, and troubleshooting design errors.
 
