@@ -6,7 +6,6 @@ title: Billions - Nation States and Their Battle with Banks
 # All dates must be YYYY-MM-DD format!
 date: 2019-05-02
 labels:
-  - Technical
   - Carbanak
   - Nation State Hackers
 ---

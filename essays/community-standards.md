@@ -6,9 +6,7 @@ title: StackOverflow is Littered with Garbage Questions
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-30
 labels:
-  - Technical
   - Smart Questions
-  - Community Standards
   - Sustainability
 ---
 

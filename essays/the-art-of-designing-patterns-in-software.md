@@ -6,13 +6,8 @@ title: The Art of Designing Patterns in Software
 # All dates must be YYYY-MM-DD format!
 date: 2020-04-30
 labels:
-  - Technical
   - Design Patterns
-  - Java
-  - Javascript
   - React
-  - Meteor
-  - MongoDb
 ---
 
 <img class="ui medium left floated image" src="../images/java-beans.jpeg" alt="" width="200" />
