@@ -3,6 +3,8 @@ layout: project
 type: project
 image: images/sm_flightplan.png
 title: flightplan
+gh_user: CraigOpie
+repo: flightplan
 permalink: projects/flightplan
 # All dates must be YYYY-MM-DD format!
 date: 2018-11-04

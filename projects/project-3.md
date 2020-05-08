@@ -3,6 +3,8 @@ layout: project
 type: project
 image: images/sm_eps.png
 title: Electronic Power Supply (EPS)
+gh_user: CraigOpie
+repo: eps
 permalink: projects/eps
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-10

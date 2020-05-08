@@ -3,6 +3,8 @@ layout: project
 type: project
 image: images/manoalist/landing_sm.png
 title: Manoalist
+gh_user: manoalist
+repo: manoalist
 permalink: projects/manoalist
 # All dates must be YYYY-MM-DD format!
 date: 2020-04-25

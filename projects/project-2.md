@@ -3,6 +3,8 @@ layout: project
 type: project
 image: images/sm_TeamPhoto.jpg
 title: NASA Student Launch Project
+gh_user: CraigOpie
+repo: project-imua
 permalink: projects/project-imua
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-21
