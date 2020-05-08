@@ -4,3 +4,15 @@
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
+
+<div class="center aligned extra content">
+  {% include home-network-links.html %}
+</div>
+<div class="center aligned content">
+  <a href="{{ site.baseurl}}/projects/">
+    <button class="ui basic button">Projects ({{ num_projects }})</button>
+  </a>
+  <a href="{{ site.baseurl}}/essays/">
+    <button class="ui basic button">Essays ({{ num_essays }})</button>
+  </a>
+</div>
