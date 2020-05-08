@@ -1,0 +1,8 @@
+<ul id="essays" class="timeline">
+  {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
+  {% for page in essay_pages %}
+    {% unless page.draft %}
+      {% include essay-row.html page=page %}
+    {% endunless %}
+  {% endfor %}
+</ul>
