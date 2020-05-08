@@ -1,0 +1,26 @@
+<!-- Used by theme-projects-builtin-1 -->
+<li class="timeline-inverted">
+  <div class="timeline-image">
+    {% if include.page.image %}
+    <img class="img-me" src="{{ site.baseurl }}/{{ include.page.image }}" alt="">
+    {% endif %}
+  </div>
+  <div class="timeline-panel">
+    <div class="timeline-heading">
+      {% if page.projecturl %}
+      <h4><a href="{{ page.projecturl }}" target="_blank">{{ include.page.title }}</a></h4>
+      {% else %}
+      <h4><a href="{{ site.baseurl}}{{ include.page.url }}" target="_blank">{{ include.page.title }}</a></h4>
+      {% endif %}
+    </div>
+    <div class="timeline-body">
+      {{ include.page.summary }}
+      <div user="{{ include.page.gh_user }}" repo="{{ include.page.repo }}" class="ghbtn" style="margin-top: 10px;">
+        <a target="_blank" href="https://github.com/{{ include.page.gh_user }}/{{ include.page.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
+        <a target="_blank" href="https://github.com/{{ include.page.gh_user }}/{{ include.page.repo }}/forks"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
+        <a target="_blank" href="https://github.com/{{ include.page.gh_user }}/{{ include.page.repo }}/watchers"><i class="far fa-eye"></i><span class="watchers">...</span></a>
+        <div style="height: 10px;"></div>
+      </div>
+    </div>
+  </div>
+</li>
