@@ -1,4 +1,3 @@
-<h1>Technical Essays</h1>
 <ul id="essays" class="timeline">
   {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}
   {% for page in essay_pages %}
