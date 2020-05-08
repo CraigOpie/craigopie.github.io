@@ -1,0 +1,15 @@
+{% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
+{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
+{% assign num_essays = essay_pages.size %}
+{% assign num_projects = project_pages.size %}
+
+<div class="nonprintable">
+  <nav class="ui stackable menu">
+    {% if num_projects > 0 %}
+    <a href="/projects" class=" {% if include.active == 'projects' %} active {% endif %}item">Projects ({{ num_projects }})</a>
+    {% endif %}
+    {% if num_essays > 0 %}
+    <a href="/essays" class=" {% if include.active == 'essays' %} active {% endif %} item">Essays ({{ num_essays }})</a>
+    {% endif %}
+  </nav>
+</div>
