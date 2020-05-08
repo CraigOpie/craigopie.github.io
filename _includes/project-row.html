@@ -13,7 +13,7 @@
       {% endif %}
     </div>
     <div class="timeline-body">
-      {{ include.page.summary }}
+      {{ include.page.summary | markdownify | strip_html | truncatewords: 30 }}
       <div user="{{ include.page.gh_user }}" repo="{{ include.page.repo }}" class="ghbtn" style="margin-top: 10px;">
         <a target="_blank" href="https://github.com/{{ include.page.gh_user }}/{{ include.page.repo }}/stargazers"><i class="fa fa-star"></i><span class="star"> ...</span></a>&emsp;&emsp;
         <a target="_blank" href="https://github.com/{{ include.page.gh_user }}/{{ include.page.repo }}/branches"><i class="fa fa-code-fork"></i><span class="fork"> ...</span></a>&emsp;&emsp;
