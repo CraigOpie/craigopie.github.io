@@ -5,7 +5,6 @@ sitemap:
 ---
 
 $(document).ready(function () {
-  var fromNav = 'none';
   var newNav = '';
   $('a.panel-button').click(function (e) {
 
@@ -22,35 +21,31 @@ $(document).ready(function () {
     }
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
-      // Close
-      if (fromNav === newNav) {
-        $('.panel-cover').addClass('panel-cover--collapsed')
-        $('.content-wrapper').addClass('animated slideInRight')
-        fromNav = 'none';
-      }
+      $('.panel-cover').addClass('panel-cover--collapsed')
+      $('.content-wrapper').addClass('animated slideInRight')
     } else {
-      // Open
       if (fromNav !== newNav) {
         $('.panel-cover').css('max-width', currentWidth)
         $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
-        fromNav = newNav;
       }
     }
     $('.content-wrapper').addClass('showing');
   })
 
   if (window.location.hash && window.location.hash == '#projects') {
-    if (fromNav === newNav) {
+    if (newNav === 'projects') {
       $('.panel-cover').addClass('panel-cover--collapsed')
-      fromNav = 'none';
+    }
+  }
+
+  if (window.location.hash && window.location.hash == '#essays') {
+    if (newNav === 'essays') {
+      $('.panel-cover').addClass('panel-cover--collapsed')
     }
   }
 
   if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
-    if (fromNav === newNav) {
-      $('.panel-cover').addClass('panel-cover--collapsed')
-      fromNav = 'none';
-    }
+    $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
   $('.btn-mobile-menu').click(function () {
@@ -59,18 +54,18 @@ $(document).ready(function () {
   })
 
   $('.navigation-wrapper .projects-button').click(function () {
+    newNav = 'projects';
     document.getElementById("projects").style.display = contents;
     document.getElementById("essays").style.display = none;
     $('.navigation-wrapper').toggleClass('visible')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
-    newNav = 'projects';
   })
 
   $('.navigation-wrapper .essays-button').click(function () {
+    newNav = 'essays';
     document.getElementById("projects").style.display = none;
     document.getElementById("essays").style.display = contents;
     $('.navigation-wrapper').toggleClass('visible')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
-    newNav = 'essays';
   })
 })
