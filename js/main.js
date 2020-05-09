@@ -5,7 +5,9 @@ sitemap:
 ---
 
 $(document).ready(function () {
+  var fromNav = '';
   $('a.panel-button').click(function (e) {
+
     //if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     if ($('.content-wrapper').hasClass('showing')){
       $('.content-wrapper').removeClass('animated slideInRight')
@@ -19,8 +21,8 @@ $(document).ready(function () {
     }
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
-      $('.panel-cover').addClass('panel-cover--collapsed')
-      $('.content-wrapper').addClass('animated slideInRight')
+      //$('.panel-cover').addClass('panel-cover--collapsed')
+      //$('.content-wrapper').addClass('animated slideInRight')
     } else {
       $('.panel-cover').css('max-width', currentWidth)
       $('.panel-cover').animate({'max-width': '530px', 'width': '40%'}, 400, swing = 'swing', function () {})
@@ -46,6 +48,7 @@ $(document).ready(function () {
     document.getElementById("essays").style.display = none;
     $('.navigation-wrapper').toggleClass('visible')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+    fromNav = 'projects';
   })
 
   $('.navigation-wrapper .essays-button').click(function () {
@@ -53,5 +56,6 @@ $(document).ready(function () {
     document.getElementById("essays").style.display = contents;
     $('.navigation-wrapper').toggleClass('visible')
     $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
+    fromNav = 'essays';
   })
 })
