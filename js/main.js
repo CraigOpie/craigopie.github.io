@@ -8,14 +8,19 @@ $(document).ready(function () {
   var newNav = '';
   $('a.panel-button').click(function (e) {
     if ($('.content-wrapper').hasClass('showing')){
-      $('.content-wrapper').removeClass('animated slideInRight')
-      $('.panel-cover').removeClass('panel-cover--collapsed')
-      $('.panel-cover').css('max-width', '100%')
-      $('.panel-cover').animate({'width': '100%'}, 400, swing = 'swing', function () {})
-      $('.content-wrapper').removeClass('showing')
-      window.location.hash = '';
-      parent.location.hash = '';
-      //return;
+      if (window.location.hash && window.location.hash == '#projects') {
+        if (newNav === 'projects') {
+          $('.content-wrapper').removeClass('animated slideInRight')
+          $('.panel-cover').removeClass('panel-cover--collapsed')
+          $('.panel-cover').css('max-width', '100%')
+          $('.panel-cover').animate({ 'width': '100%' }, 400, swing = 'swing', function () {
+          })
+          $('.content-wrapper').removeClass('showing')
+          window.location.hash = '';
+          parent.location.hash = '';
+          return;
+        }
+      }
     }
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
