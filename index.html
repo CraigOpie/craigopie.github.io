@@ -6,7 +6,7 @@ robots: noindex
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
-<h2>My Projects</h2>
+<h2 id="projects">My Projects</h2>
 {% include {{ site.theme-projects }} %}
-<h2>Technical Essays</h2>
+<h2 id="essays">Technical Essays</h2>
 {% include {{ site.theme-essays }} %}
