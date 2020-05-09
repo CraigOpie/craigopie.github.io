@@ -7,8 +7,6 @@ sitemap:
 $(document).ready(function () {
   var newNav = '';
   $('a.panel-button').click(function (e) {
-
-    //if ($('.panel-cover').hasClass('panel-cover--collapsed')) return
     if ($('.content-wrapper').hasClass('showing')){
       $('.content-wrapper').removeClass('animated slideInRight')
       $('.panel-cover').removeClass('panel-cover--collapsed')
@@ -16,8 +14,8 @@ $(document).ready(function () {
       $('.panel-cover').animate({'width': '100%'}, 400, swing = 'swing', function () {})
       $('.content-wrapper').removeClass('showing')
       window.location.hash = '';
-      parent.location.hash = ''
-      return;
+      parent.location.hash = '';
+      //return;
     }
     currentWidth = $('.panel-cover').width()
     if (currentWidth < 960) {
