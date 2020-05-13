@@ -13,7 +13,7 @@ $(document).ready(function () {
       $('.panel-cover').animate({'width': '100%'}, 400, swing = 'swing', function () {})
       $('.content-wrapper').removeClass('showing')
       window.location.hash = '';
-      parent.location.hash = ''
+      parent.location.hash = '';
       return;
     }
     currentWidth = $('.panel-cover').width()
