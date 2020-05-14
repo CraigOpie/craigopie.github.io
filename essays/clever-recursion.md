@@ -43,24 +43,21 @@ RSA encryption for SSL/TLS has become a vulnerable technology that should not be
 #### Work Cited
 
 Cloostermans, B. (2012, August 22) Quasi-linear GCD Computation and Factoring RSA 
-     Moduli, Retrieved February 26, 2019 from https://pure.tue.nl/ws/files/67735608/741686-1.pdf
+     Moduli, Retrieved February 26, 2019 from [https://pure.tue.nl/ws/files/67735608/741686-1.pdf](https://pure.tue.nl/ws/files/67735608/741686-1.pdf)
      
 Durumeric, Z., Halderman, J., Heninger, N. & Wustrow, E.(2013) Mining Your Ps and Qs: 
      Detection of Widespread Weak Keys in Network Devices, Retrieved Februrary 26, 2019 from 
-     https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final228.pdf
+     [https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final228.pdf](https://www.usenix.org/system/files/conference/usenixsecurity12/sec12-final228.pdf)
 
 Kuszmaul, W. (2019, January 15) The (Almost) Secret Algorithm Researchers Used to Break
      Thousands of RSA Keys, Retrieved February 26, 2019 from 
-     https://algorithmsoup.wordpress.com/2019/01/15/breaking-an-unbreakable-code-part-1-the-
-     hack/
+     [https://algorithmsoup.wordpress.com/2019/01/15/breaking-an-unbreakable-code-part-1-the-hack/](https://algorithmsoup.wordpress.com/2019/01/15/breaking-an-unbreakable-code-part-1-the-hack/)
      
 Lenstra, A., Hughes, J., Augier, M., Bos, J., Kleinjung, T. & Wachter, C. (2012) Ron was 
-     wrong, Whit is right, Retrieved February 26, 2019 from https://eprint.iacr.org/2012/064.pdf
+     wrong, Whit is right, Retrieved February 26, 2019 from [https://eprint.iacr.org/2012/064.pdf](https://eprint.iacr.org/2012/064.pdf)
 
 Rouse, M. (2018, November) RSA Algorithm (Rivest-Shamir-Adleman), Retrieved February 26, 
-     2019 from https://searchsecurity.techtarget.com/definition/RSA     
+     2019 from [https://searchsecurity.techtarget.com/definition/RSA](https://searchsecurity.techtarget.com/definition/RSA)     
 
 Scharfglass, K., Weng, D. & White, J. & Lupo, C. (2013) Breaking Weak 1024-bit RSA keys 
-     with CUDA, Retrieved February 26, 2019 from https://digitalcommons.calpoly.edu/cgi/view
-     content.cgi?referer=https://scholar.google.com/&httpsredir=1&article=1241&
-     context=csse_fac
+     with CUDA, Retrieved February 26, 2019 from [https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?referer=https://scholar.google.com/&httpsredir=1&article=1241&context=csse_fac](https://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?referer=https://scholar.google.com/&httpsredir=1&article=1241&context=csse_fac)

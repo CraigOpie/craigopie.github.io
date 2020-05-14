@@ -50,7 +50,7 @@ Coding standards have clearly increased workflow and maximized profit for large 
 
 #### Work Cited
 
-Computer History Museum (2020) Timeline: 1965. https://www.computerhistory.org/timeline/1965/.  Retrieved 2020-02-10
+Computer History Museum (2020) Timeline: 1965. [https://www.computerhistory.org/timeline/1965/](https://www.computerhistory.org/timeline/1965/).  Retrieved 2020-02-10
 
 Ford, Henry & Crowther, Samuel (1922). My Life and Work. Garden City, NY: Garden City Publishing. Retrieved 2020-02-10
 

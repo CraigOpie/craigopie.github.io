@@ -57,6 +57,6 @@ Enforcement of the three ‘R’s to questioning techniques is the only way to e
 
 #### Work Cited
 
-Raymond, E. & Moen, R. (2014, May 21). How To Ask Questions The Smart Way. Retrieved January 30, 2020, from http://www.catb.org/esr/faqs/smart-questions.html
+Raymond, E. & Moen, R. (2014, May 21). How To Ask Questions The Smart Way. Retrieved January 30, 2020, from [http://www.catb.org/esr/faqs/smart-questions.html](http://www.catb.org/esr/faqs/smart-questions.html)
 
-Stack Overflow. How do I ask a good question?. Retrieved January 30, 2020, from https://stackoverflow.com/help/how-to-ask
+Stack Overflow. How do I ask a good question?. Retrieved January 30, 2020, from [https://stackoverflow.com/help/how-to-ask](https://stackoverflow.com/help/how-to-ask)

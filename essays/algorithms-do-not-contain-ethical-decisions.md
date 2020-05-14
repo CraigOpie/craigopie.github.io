@@ -35,4 +35,4 @@ It is unethical to deploy a machine capable of killing without allowing a method
 #### Work cited
 [1]G. Schweitzer, Mechatronics for the Design of Human-Oriented Machines. IEEE/ASME, 2020.
 
-[2]"Why Self-Driving Cars Must Be Programmed to Kill", MIT Technology Review, 2020. [Online]. Available: https://www.technologyreview.com/2015/10/22/165469/why-self-driving-cars-must-be-programmed-to-kill/. [Accessed: 25- Apr- 2020].
+[2]"Why Self-Driving Cars Must Be Programmed to Kill", MIT Technology Review, 2020. [Online]. Available: [https://www.technologyreview.com/2015/10/22/165469/why-self-driving-cars-must-be-programmed-to-kill/](https://www.technologyreview.com/2015/10/22/165469/why-self-driving-cars-must-be-programmed-to-kill/). [Accessed: 25- Apr- 2020].

@@ -40,26 +40,26 @@ A recent report from the U.N. Security Council revealed that Pyongyang’s hacke
 
 #### Work Cited
 
-Barrett, B. (2019, February 20). ATM Hacking Has Gotten So Easy, the Malware's a Game. Retrieved April 29, 2019, from https://www.wired.com/story/atm-hacking-winpot-jackpotting-game/
+Barrett, B. (2019, February 20). ATM Hacking Has Gotten So Easy, the Malware's a Game. Retrieved April 29, 2019, from [https://www.wired.com/story/atm-hacking-winpot-jackpotting-game/](https://www.wired.com/story/atm-hacking-winpot-jackpotting-game/)
      
-Carbanak APT. (n.d.). Retrieved April 29, 2019, from https://www.kaspersky.com/resource-center/threats/carbanak-apt
+Carbanak APT. (n.d.). Retrieved April 29, 2019, from [https://www.kaspersky.com/resource-center/threats/carbanak-apt](https://www.kaspersky.com/resource-center/threats/carbanak-apt)
 
-Criminals' ATM trick: Reprogram, swipe cash. (2007, June 30). Retrieved April 29, 2019, from http://old.post-gazette.com/pg/07181/798367-85.stm
+Criminals' ATM trick: Reprogram, swipe cash. (2007, June 30). Retrieved April 29, 2019, from [http://old.post-gazette.com/pg/07181/798367-85.stm](http://old.post-gazette.com/pg/07181/798367-85.stm)
      
-Devdreux, C. (n.d.). The Biggest Digital Heist in History Isn't Over Yet. Retrieved May 2, 2019, from https://www.bloomberg.com/news/features/2018-06-25/the-biggest-digital-heist-in-history-isn-t-over-yet
+Devdreux, C. (n.d.). The Biggest Digital Heist in History Isn't Over Yet. Retrieved May 2, 2019, from [https://www.bloomberg.com/news/features/2018-06-25/the-biggest-digital-heist-in-history-isn-t-over-yet](https://www.bloomberg.com/news/features/2018-06-25/the-biggest-digital-heist-in-history-isn-t-over-yet)
 
-Mastermind behind EUR 1 billion cyber bank robbery arrested in Spain. (2018, April 01). Retrieved April 15, 2019, from https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain     
+Mastermind behind EUR 1 billion cyber bank robbery arrested in Spain. (2018, April 01). Retrieved April 15, 2019, from [https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain](https://www.europol.europa.eu/newsroom/news/mastermind-behind-eur-1-billion-cyber-bank-robbery-arrested-in-spain)     
 
-Mathews, L. (2019, March 11). North Korean Hackers Have Raked in $670 Million Via Cyberattacks. Retrieved May 1, 2019, from https://www.forbes.com/sites/leemathews/2019/03/11/north-korean-hackers-have-raked-in-670-million-via-cyberattacks/#482f71297018
+Mathews, L. (2019, March 11). North Korean Hackers Have Raked in $670 Million Via Cyberattacks. Retrieved May 1, 2019, from [https://www.forbes.com/sites/leemathews/2019/03/11/north-korean-hackers-have-raked-in-670-million-via-cyberattacks/#482f71297018](https://www.forbes.com/sites/leemathews/2019/03/11/north-korean-hackers-have-raked-in-670-million-via-cyberattacks/#482f71297018)
 
-Newman, L. H. (2018, January 31). A Devastating ATM Hack Swept the World-And Finally Hit the US. Retrieved April 30, 2019, from https://www.wired.com/story/jackpotting-atm-hacks/
+Newman, L. H. (2018, January 31). A Devastating ATM Hack Swept the World-And Finally Hit the US. Retrieved April 30, 2019, from [https://www.wired.com/story/jackpotting-atm-hacks/](https://www.wired.com/story/jackpotting-atm-hacks/)
 
-Newman, L. H. (2019, April 10). A New Breed of ATM Hackers Gets in Through a Bank's Network. Retrieved April 28, 2019, from https://www.wired.com/story/atm-hacks-swift-network/
+Newman, L. H. (2019, April 10). A New Breed of ATM Hackers Gets in Through a Bank's Network. Retrieved April 28, 2019, from [https://www.wired.com/story/atm-hacks-swift-network/](https://www.wired.com/story/atm-hacks-swift-network/)
 
-Perez, E., & Shortell, D. (2019, March 01). North Korean-backed bank hacking on the rise, US officials say. Retrieved April 30, 2019, from https://www.cnn.com/2019/03/01/politics/north-korea-cyberattacks-cash-bank-heists/index.html
+Perez, E., & Shortell, D. (2019, March 01). North Korean-backed bank hacking on the rise, US officials say. Retrieved April 30, 2019, from [https://www.cnn.com/2019/03/01/politics/north-korea-cyberattacks-cash-bank-heists/index.html](https://www.cnn.com/2019/03/01/politics/north-korea-cyberattacks-cash-bank-heists/index.html)
 
-Perlroth, N. (2019, March 03). As Trump and Kim Met, North Korean Hackers Hit Over 100 Targets in U.S. and Ally Nations. Retrieved May 1, 2019, from https://www.nytimes.com/2019/03/03/technology/north-korea-hackers-trump.html
+Perlroth, N. (2019, March 03). As Trump and Kim Met, North Korean Hackers Hit Over 100 Targets in U.S. and Ally Nations. Retrieved May 1, 2019, from [https://www.nytimes.com/2019/03/03/technology/north-korea-hackers-trump.html](https://www.nytimes.com/2019/03/03/technology/north-korea-hackers-trump.html)
 
-Tyupkin Virus (Malware) ATM Security. (n.d.). Retrieved April 29, 2019, from https://www.kaspersky.com/resource-center/threats/tyupkin-malware-atm-security-malware
+Tyupkin Virus (Malware) ATM Security. (n.d.). Retrieved April 29, 2019, from [https://www.kaspersky.com/resource-center/threats/tyupkin-malware-atm-security-malware](https://www.kaspersky.com/resource-center/threats/tyupkin-malware-atm-security-malware)
 
-Winn, P., & Winn, P. (2018, May 16). How North Korean hackers became the world's greatest bank robbers. Retrieved April 30, 2019, from https://gpinvestigations.pri.org/how-north-korean-hackers-became-the-worlds-greatest-bank-robbers-492a323732a6
+Winn, P., & Winn, P. (2018, May 16). How North Korean hackers became the world's greatest bank robbers. Retrieved April 30, 2019, from [https://gpinvestigations.pri.org/how-north-korean-hackers-became-the-worlds-greatest-bank-robbers-492a323732a6](https://gpinvestigations.pri.org/how-north-korean-hackers-became-the-worlds-greatest-bank-robbers-492a323732a6)
