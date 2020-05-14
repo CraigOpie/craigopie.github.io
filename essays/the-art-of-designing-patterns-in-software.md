@@ -10,7 +10,7 @@ labels:
   - React
 ---
 
-<img class="ui medium left floated image" src="../images/java-beans.jpeg" alt="" width="70%" />
+<img class="ui medium left floated image" src="../images/java-beans.jpeg" alt="" width="100%" />
 
 ### Doing things right, the first time
 

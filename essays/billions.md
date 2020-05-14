@@ -10,7 +10,7 @@ labels:
   - Nation State Hackers
 ---
 
-<img class="ui large right floated image" src="../images/bank-hackers.jpg" alt="" width="70%" />
+<img class="ui large right floated image" src="../images/bank-hackers.jpg" alt="" width="100%" />
 
 ### It Began with Carbanak
 

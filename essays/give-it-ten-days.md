@@ -10,7 +10,7 @@ labels:
   - JavaScript
 ---
 
-<img class="ui medium left floated image" src="../images/javascript.jpeg" alt="" width="70%" />
+<img class="ui medium left floated image" src="../images/javascript.jpeg" alt="" width="100%" />
 
 ### JavaScript feels like a Frankenstein of Python and C
 
