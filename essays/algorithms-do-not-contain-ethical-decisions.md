@@ -10,7 +10,7 @@ labels:
   - Autonomous Vehicles
 ---
 
-<img class="ui huge centered image" src="../images/computer-vision.png" alt="" width="200" />
+<img class="ui huge centered image" src="../images/computer-vision.png" alt="" width="70%" />
 
 ## Silent but deadly
 
