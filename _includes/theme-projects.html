@@ -1,4 +1,5 @@
-<h2 id="projects">My Projects</h2>
+<h1 id="projects"></h1>
+<h2>My Projects</h2>
 <ul class="timeline">
   {% assign project_pages = site.pages | where: "type", "project" | sort: "date" | reverse %}
   {% for page in project_pages %}
