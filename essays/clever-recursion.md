@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 image: images/encryption.jpg
-title: Clever Recursion - Finding No So Clever Encryption
+title: Clever Recursion - Finding Not So Clever Encryption
 # All dates must be YYYY-MM-DD format!
 date: 2019-02-25
 labels:
