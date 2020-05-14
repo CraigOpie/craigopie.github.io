@@ -15,7 +15,7 @@ labels:
 summary: An application for UHM students to facilitate buying and selling of student-related goods and service.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/manoalist/landing.png" alt="" width="200" />
+<img class="ui image" src="{{ site.baseurl }}/images/manoalist/landing.png" alt="" width="70%" />
 
 # TABLE OF CONTENTS
 ***

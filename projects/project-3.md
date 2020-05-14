@@ -15,7 +15,7 @@ labels:
 summary: A self developed low-cost EPS for CubeSats with features comparable to market standards.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/eps.png" alt="" width="200" />
+<img class="ui image" src="{{ site.baseurl }}/images/eps.png" alt="" width="70%" />
 
 This Electronic Power Supply (EPS) is a low-cost, feature rich, alternative for educational use in space.  Comparable EPS devices include one of the most standard use devices made by <a href="https://www.aac-clyde.space/assets/000/000/103/STARBUCK-NANO_original.pdf?1565681302">ClydeSpace</a>.  This EPS was deliberately designed as a "Two-Layer PCB" to reduce cost but inherently causes increased Electromagnetic Interference (EMI) and limits the amount of features available.  Total cost of production (not including time required for assembly) can be as low as $225.  
 

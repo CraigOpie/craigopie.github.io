@@ -10,7 +10,7 @@ labels:
   - Coding Standards
 ---
 
-<img class="ui medium right floated image" src="../images/paint-by-nums.jpeg" alt="" width="200" />
+<img class="ui medium right floated image" src="../images/paint-by-nums.jpeg" alt="" width="70%" />
 
 ## The first bug trap
 
