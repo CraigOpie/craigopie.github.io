@@ -65,69 +65,67 @@ Track the team's progress via Milestones:
 
 ### USER INTERFACE
 ***
-#### Landing Page
+### Landing Page
 
 The first page seen when accessing the site. Provides a brief introduction to how Manoalist works. Users can sign in/up 
 
-<a href="http://mymanoalist520.meteorapp.com/#/">Landing page</a>
+<a href="http://mymanoalist520.meteorapp.com/#/"><img src="{{ site.baseurl }}/images/manoalist/landingPage.png" width="100%" alt="landing mockup"></a>
 
-<img src="{{ site.baseurl }}/images/manoalist/landing.png" width="70%" alt="landing mockup">
 
-#### Sign Up
+### Sign Up
 
 If you do not have an account, you can click sign up to register:
 
-<a href="http://mymanoalist520.meteorapp.com/#/signup">Sign up page</a>
+<a href="http://mymanoalist520.meteorapp.com/#/signup"><img src="{{ site.baseurl }}/images/manoalist/sign-up.png" width="100%" alt="sign up"></a>
 
-<img src="{{ site.baseurl }}/images/manoalist/sign-up.png" width="70%" alt="sign up">
 
-#### Sign In
+### Sign In
 
 You can click log in to access your account:
 
-<a href="http://mymanoalist520.meteorapp.com/#/signin">Sign in page</a>
+<a href="http://mymanoalist520.meteorapp.com/#/signin"><img src="{{ site.baseurl }}/images/manoalist/login.png" width="100%" alt="log in"></a>
 
-<img src="{{ site.baseurl }}/images/manoalist/login.png" width="70%" alt="log in">
 
-#### Home
+### Home
 
 After logging in, you will see the home page for you to start shopping. You can search for items or use "shopping" dropdown to see items on each category. You can also see what is new on the list and what are the most popular items. 
 
-<a href="http://mymanoalist520.meteorapp.com/#/home">Home page</a>
+<a href="http://mymanoalist520.meteorapp.com/#/home"><img src="{{ site.baseurl }}/images/manoalist/home-user.png" width="100%" alt="user home"></a>
 
-<img src="{{ site.baseurl }}/images/manoalist/home-user.png" width="70%" alt="user home">
 
-#### List Items
+### List Items
 
 See what items are available on the site.
 
-<a href="http://mymanoalist520.meteorapp.com/#/list">List item page</a>
+<a href="http://mymanoalist520.meteorapp.com/#/list"><img src="{{ site.baseurl }}/images/manoalist/list.png" width="100%" alt="list item"></a>
 
-<img src="{{ site.baseurl }}/images/manoalist/list.png" width="70%" alt="list item">
 
-#### Item Page
+### Item Page
 
 See details about an individual item.
 
-<img src="{{ site.baseurl }}/images/manoalist/item-page.png" width="70%" alt="item page">
+<img src="{{ site.baseurl }}/images/manoalist/item-page.png" width="100%" alt="item page">
 
-#### Profile Page
+
+### Profile Page
 
 Users can see their own profile page to check items they sell, bought and the rating from other users.
 
-<img src="{{ site.baseurl }}/images/manoalist/profile.png" width="70%" alt="profile">
+<img src="{{ site.baseurl }}/images/manoalist/profile.png" width="100%" alt="profile">
 
-#### Add Item Page
+
+### Add Item Page
 
 Users can post their items for sale to the list.
 
-<img src="{{ site.baseurl }}/images/manoalist/add-item.png" width="70%" alt="add item">
+<img src="{{ site.baseurl }}/images/manoalist/add-item.png" width="100%" alt="add item">
 
-#### Admin Home Page(Admin)
+
+### Admin Home Page(Admin)
 
 Administrator has their home page that allows them to create new category, monitoring items and send notifications. They can also handle the report and new post from users.
 
-<img src="{{ site.baseurl }}/images/manoalist/admin.png" width="70%" alt="admin home">
+<img src="{{ site.baseurl }}/images/manoalist/admin.png" width="100%" alt="admin home">
 
 <br/>
 
@@ -135,7 +133,7 @@ Administrator has their home page that allows them to create new category, monit
 ***
 This section provides information to Meteor developers on how to use this code base as a basis for their own development projects and tasks.
 
-#### Installation
+### Installation
 
 First, <a href="https://www.meteor.com/install">install Meteor</a>.
 
@@ -146,14 +144,14 @@ Fourth, cd into the app/ directory of your local copy of the repo, and install t
 $ meteor npm install
 ```
 
-#### Running the system
+### Running the system
 
 Once the libraries are installed, you can run the application by invoking the "start" script in the package.json file:
 ```
 $ meteor npm run start
 ```
 
-#### Viewing the running app
+### Viewing the running app
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). You can login using the credentials in settings.development.json, or else register a new account.
 
 <br/>
