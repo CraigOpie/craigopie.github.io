@@ -17,7 +17,7 @@ summary: An application for UHM students to facilitate buying and selling of stu
 
 <img class="ui image" src="{{ site.baseurl }}/images/manoalist/landing.png" alt="" width="70%" />
 
-# TABLE OF CONTENTS
+### TABLE OF CONTENTS
 ***
 * [OVERVIEW](#overview)
 * [THE TEAM](#the-team)
@@ -26,7 +26,7 @@ summary: An application for UHM students to facilitate buying and selling of stu
 * [DEVELOPER GUIDE](#developer-guide)
 
 
-# OVERVIEW
+### OVERVIEW
 ***
 An application for UHM students to facilitate buying and selling of student-related goods and service. Users can post valid information about their products on the platform, and the products will be displayed by searching their key words (label). It will be similar to the existing website "Craigslist" with added functionality. Our goal is to work closely as a team and develop a website that is both functional and aesthetic.
 
@@ -37,7 +37,7 @@ Features:
 - "Like" items to view later
 
 
-# THE TEAM
+### THE TEAM
 ***
 Five ICS students at the University of Hawaii at Manoa.  
 Check out our portfolios below! 
@@ -48,7 +48,7 @@ Check out our portfolios below!
 * [Kyra Ikeda](https://kyraikeda.github.io/)
 
 
-# PROGRESS + DEVELOPMENT
+### PROGRESS + DEVELOPMENT
 ***
 Running deployment on Galaxy: <a href="http://mymanoalist.meteorapp.com/#/">Manoalist Website</a>
 
@@ -58,9 +58,9 @@ Track the team's progress via Milestones:
 * <a href="https://github.com/manoalist/manoalist/projects/4">M3</a>
 
 
-# USER INTERFACE
+### USER INTERFACE
 ***
-### Landing Page
+#### Landing Page
 
 The first page seen when accessing the site. Provides a brief introduction to how Manoalist works. Users can sign in/up 
 
@@ -68,7 +68,7 @@ The first page seen when accessing the site. Provides a brief introduction to ho
 
 <img src="{{ site.baseurl }}/images/manoalist/landing.png" width="70%" alt="landing mockup">
 
-### Sign Up
+#### Sign Up
 
 If you do not have an account, you can click sign up to register:
 
@@ -76,7 +76,7 @@ If you do not have an account, you can click sign up to register:
 
 <img src="{{ site.baseurl }}/images/manoalist/signup.png" width="70%" alt="sign up">
 
-### Sign In
+#### Sign In
 
 You can click log in to access your account:
 
@@ -84,7 +84,7 @@ You can click log in to access your account:
 
 <img src="{{ site.baseurl }}/images/manoalist/signin.png" width="70%" alt="log in">
 
-### Home
+#### Home
 
 After logging in, you will see the home page for you to start shopping. You can search for items or use "shopping" dropdown to see items on each category. You can also see what is new on the list and what are the most popular items. 
 
@@ -92,7 +92,7 @@ After logging in, you will see the home page for you to start shopping. You can 
 
 <img src="{{ site.baseurl }}/images/manoalist/home.png" width="70%" alt="user home">
 
-### List Items
+#### List Items
 
 See what items are available on the site.
 
@@ -102,11 +102,11 @@ See what items are available on the site.
 <img src="{{ site.baseurl }}/images/manoalist/list.png" width="70%" alt="list item">
 
 
-# DEVELOPER GUIDE
+### DEVELOPER GUIDE
 ***
 This section provides information to Meteor developers on how to use this code base as a basis for their own development projects and tasks.
 
-### Installation
+#### Installation
 
 First, <a href="https://www.meteor.com/install">install Meteor</a>.
 
@@ -117,14 +117,14 @@ Fourth, cd into the app/ directory of your local copy of the repo, and install t
 $ meteor npm install
 ```
 
-### Running the system
+#### Running the system
 
 Once the libraries are installed, you can run the application by invoking the "start" script in the package.json file:
 ```
 $ meteor npm run start
 ```
 
-### Viewing the running app
+#### Viewing the running app
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). You can login using the credentials in settings.development.json, or else register a new account.
 
 <br/><br/>
