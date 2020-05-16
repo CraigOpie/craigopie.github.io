@@ -25,6 +25,8 @@ summary: An application for UHM students to facilitate buying and selling of stu
 * [USER GUIDE](#user-guide)
 * [DEVELOPER GUIDE](#developer-guide)
 * [COMMUNITY FEEDBACK](#community-feedback)
+* [MY CONTRIBUTION](#my-contribution)
+* [WHAT I LEARNED](#what-i-learned)
 
 <br/>
 
@@ -182,8 +184,19 @@ zhu@hawaii.edu – Feedback<br/>
 I looked at your website and in summary, manoalist looks like a craigslist specific to Manoa.  I tried posting an item for sale and browsed the other items for sale.  I voted on an item too.  Everything was functional.  I’m curious if posting is limited to people in a certain radius of Manoa?  And, why allow voting for posted items?
 - Great evaluation!  Yes, manoalist is meant to be just like craigslist but specific to Manoa members.  Unfortunately we do not have a geographic limitation to posting items for sale or buying.  This would be a great addition for future implementations!  As for voting for posted items; we offer ratings for buyers and sellers, and adding items to a watchlist/hearted.  This also allows us to track popular items based on how many people have hearted the item.  We also implemented an item request, like craigslist.  Maybe that is what you are talking about. Mahalo!
 
+<br/>
 
-<br/><br/>
+### MY CONTRIBUTION
+ I served as the project manager and tech lead for Manoalist.  I utilized GitHub to create project milestones, identified issues and assigned team members for solutions, coordinated team meetings, was responsible for deployment to our public server, and reviewed submitted implementation changes to resolve existing conflicts prior to merging with our master branch.  I used feedback from our team, throughout the project, to align members with issues that reflected their own passion in development.  Also, to ensure I pulled my own weight with development, I created numerous API’s to allow our clients to interact with our server’s back end, performed security updates, assisted with database development, made modifications to the website’s front end design, managed collections and subscriptions, and populated half of the default items to sell which was needed to have a functional platform.  Overall, I had a large hand in everything during the development of this project, but I also had an extremely reliable, capable, and talented team that dedicated countless personal hours to ensure we delivered an amazing product that we are proud to claim.
+ 
+ <br/>
+ 
+ ### WHAT I LEARNED
+ I learned a great deal from this project.  My experience in project management has been in face-to-face settings where I have something physical to see and feel as an end result.  Having to imagine a product from concept to implementation is normally difficult but having to communicate that concept to a team of others that are all working remotely was extremely difficult.  Additionally, not being able to see the body language of my teammates and know how they are responding to questions or ideas created a barrier that I’m not comfortable with.  To overcome these challenges, I learned to increase my communication teamwide and also one-on-one using every method of communication available.  We typically overcommunicated everything and discussed project issues before documenting the what’s wrong and who was going to resolve it.  Because of this project, I feel much more comfortable leading and being part of a team that works remotely.
+ 
+ <br/><br/>
+     
+
 
 
 Source: <a href="https://github.com/manoalist/manoalist"><i class="large github icon "></i>manoalist</a>
