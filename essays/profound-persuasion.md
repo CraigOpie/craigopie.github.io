@@ -6,7 +6,8 @@ title: Profound Persuasion - The Metaverse Weaponized Through Cognitive Science
 # All dates must be YYYY-MM-DD format!
 date: 2022-03-22
 labels:
-  - Cognitive-Science
+  - Technical
+  - Cognitive Science
   - ICS691D
 ---
 
