@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/ponopush.jpg
+image: images/ponopush/ponopush.jpg
 title: PonoPush
 gh_user: craigopie
 repo: ponopush
@@ -15,20 +15,7 @@ labels:
 summary: A command-line application designed to assist developers in making better Git commit messages using AI.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/ponopush/landingPage.png" alt="" width="100%" />
-
-### TABLE OF CONTENTS
-***
-* [OVERVIEW](#overview)
-* [THE TEAM](#the-team)
-* [PROGRESS + DEVELOPMENT](#progress--development)
-* [USER GUIDE](#user-guide)
-* [DEVELOPER GUIDE](#developer-guide)
-* [COMMUNITY FEEDBACK](#community-feedback)
-* [MY CONTRIBUTION](#my-contribution)
-* [WHAT I LEARNED](#what-i-learned)
-
-<br/>
+<img class="ui image" src="{{ site.baseurl }}/images/ponopush/commit_message.png" alt="" width="100%" />
 
 ### OVERVIEW
 ***
