@@ -23,4 +23,4 @@ This work was not supported by any organization
 
 The intent of this paper is to conduct a large-scale empirical study on bug bounty reports related to API vulnerabilities and weaknesses. We aim to identify common critical and important API vulnerabilities discovered through the bug bounty process, using Microsoft's security update severity rating system. Additionally, we have defined a method to determine the severity ranking of a vulnerability. Our findings are cross-validated with OWASP Top 10 to determine the change in occurrence of each vulnerability. Our research can help developers determine real-world vulnerabilities and weaknesses, assign severity to common API vulnerabilities, and validate OWASP Top 10 regarding API. Furthermore, our study can provide a pathway for researchers to study and address common vulnerabilities.
 
-[FULL PAPER](improperly-secured-apis.pdf)
+[FULL PAPER](https://craigopie.github.io/improperly-secured-apis.pdf)
