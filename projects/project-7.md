@@ -9,7 +9,9 @@ permalink: projects/shellScripts
 # All dates must be YYYY-MM-DD format!
 date: 2023-06-23
 labels:
-  - Bash
+  - Rust
+  - LLM
+  - ChatGPT
 summary: Personal shell scripts to make life easier.
 ---
 
