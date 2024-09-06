@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: images/vnd/vnd.jpg
-title: Secure Multiparty Computation
+title: Virtual Wireless Network Driver
 gh_user: TheNetworkNinjas
 repo: virtual_network_driver
 permalink: projects/virtual_network_driver
