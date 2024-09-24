@@ -6,11 +6,10 @@ title: Evidence of Core Competency
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-23
 labels:
-  - PhD
-  - Portfolio
+  - PhD Portfolio
 ---
 
-<img class="ui large left floated image" src="../images/encryption.jpg" alt="" width="100%" />
+*This page presents evidence of my core competencies in computer science as required for the [ICS Ph.D. Portfolio](https://philipmjohnson.org/essays/why-and-how-to-write-a-high-quality-phd-portfolio.html). This includes evidence for my M.S. degree and the results of my qualifying exam.*
 
 ### Evidence of MS degree
 

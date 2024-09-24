@@ -6,11 +6,10 @@ title: Statement of Purpose
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-25
 labels:
-  - PhD
-  - Portfolio
+  - PhD Portfolio
 ---
 
-<img class="ui large left floated image" src="../images/encryption.jpg" alt="" width="100%" />
+*This page presents my statement of purpose in computer science as required for the [ICS Ph.D. Portfolio](https://philipmjohnson.org/essays/why-and-how-to-write-a-high-quality-phd-portfolio.html). It summarizes my personal and professional history, adversity, and resiliency.*
 
 ### Introduction
 
