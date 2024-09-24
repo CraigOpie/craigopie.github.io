@@ -1,6 +1,6 @@
 ---
-layout: competency
-type: competency
+layout: statement
+type: statement
 image: images/encryption.jpg
 title: Evidence of Core Competency
 # All dates must be YYYY-MM-DD format!

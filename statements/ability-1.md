@@ -1,6 +1,6 @@
 ---
-layout: ability
-type: ability
+layout: statement
+type: statement
 image: images/encryption.jpg
 title: Evidence of Scholarly Ability
 # All dates must be YYYY-MM-DD format!

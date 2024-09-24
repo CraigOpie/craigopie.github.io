@@ -1,11 +1,7 @@
 {% assign statement_pages = site.pages | where: "type", "statement"  | where_exp: "page", "page.draft != true" %}
-{% assign competency_pages = site.pages | where: "type", "competency"  | where_exp: "page", "page.draft != true" %}
-{% assign ability_pages = site.pages | where: "type", "ability"  | where_exp: "page", "page.draft != true" %}
 {% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
 {% assign num_statements = statement_pages.size %}
-{% assign num_competencies = competency_pages.size %}
-{% assign num_abilities = ability_pages.size %}
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
 
@@ -17,12 +13,6 @@
     <div class="center aligned content">
       <a href="{{ site.baseurl}}/statements/">
         <button class="ui basic button">Statements ({{ num_statements }})</button>
-      </a>
-      <a href="{{ site.baseurl}}/competencies/">
-        <button class="ui basic button">Competencies ({{ num_competencies }})</button>
-      </a>
-      <a href="{{ site.baseurl}}/abilities/">
-        <button class="ui basic button">Abilities ({{ num_abilities }})</button>
       </a>
       <a href="{{ site.baseurl}}/essays/">
         <button class="ui basic button">Writings ({{ num_essays }})</button>

@@ -39,14 +39,6 @@ $(document).ready(function () {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
-  if (window.location.hash && window.location.hash == '#competency') {
-    $('.panel-cover').addClass('panel-cover--collapsed')
-  }
-
-  if (window.location.hash && window.location.hash == '#ability') {
-    $('.panel-cover').addClass('panel-cover--collapsed')
-  }
-
   if (window.location.pathname !== '{{ site.baseurl }}/' && window.location.pathname !== '{{ site.baseurl }}/index.html') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
@@ -60,8 +52,6 @@ $(document).ready(function () {
     document.getElementById("projects").style.display = contents;
     document.getElementById("essays").style.display = none;
     document.getElementById("statements").style.display = none;
-    document.getElementById("competency").style.display = none;
-    document.getElementById("ability").style.display = none;
     if (window.location.hash && window.location.hash == '#projects') {
       $('.navigation-wrapper').toggleClass('visible')
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
@@ -72,8 +62,6 @@ $(document).ready(function () {
     document.getElementById("projects").style.display = none;
     document.getElementById("essays").style.display = contents;
     document.getElementById("statements").style.display = none;
-    document.getElementById("competency").style.display = none;
-    document.getElementById("ability").style.display = none;
     if (window.location.hash && window.location.hash == '#essays') {
       $('.navigation-wrapper').toggleClass('visible')
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
@@ -84,33 +72,7 @@ $(document).ready(function () {
     document.getElementById("projects").style.display = none;
     document.getElementById("essays").style.display = none;
     document.getElementById("statements").style.display = contents;
-    document.getElementById("competency").style.display = none;
-    document.getElementById("ability").style.display = none;
     if (window.location.hash && window.location.hash == '#statements') {
-      $('.navigation-wrapper').toggleClass('visible')
-      $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
-    }
-  })
-
-  $('.navigation-wrapper .competency-button').click(function () {
-    document.getElementById("projects").style.display = none;
-    document.getElementById("essays").style.display = none;
-    document.getElementById("statements").style.display = none;
-    document.getElementById("competency").style.display = contents;
-    document.getElementById("ability").style.display = none;
-    if (window.location.hash && window.location.hash == '#competency') {
-      $('.navigation-wrapper').toggleClass('visible')
-      $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
-    }
-  })
-
-  $('.navigation-wrapper .ability-button').click(function () {
-    document.getElementById("projects").style.display = none;
-    document.getElementById("essays").style.display = none;
-    document.getElementById("statements").style.display = none;
-    document.getElementById("competency").style.display = none;
-    document.getElementById("ability").style.display = contents;
-    if (window.location.hash && window.location.hash == '#ability') {
       $('.navigation-wrapper').toggleClass('visible')
       $('.btn-mobile-menu__icon').toggleClass('icon-list icon-x-circle animated fadeIn')
     }

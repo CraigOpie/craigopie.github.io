@@ -1,9 +1,0 @@
-<h2 id="competencies">Evidence of Core Competency</h2>
-<ul class="timeline">
-  {% assign competency_pages = site.pages | where: "type", "competency" | sort: "date" | reverse %}
-  {% for page in competency_pages %}
-    {% unless page.draft %}
-      {% include competency-row.html page=page %}
-    {% endunless %}
-  {% endfor %}
-</ul>
