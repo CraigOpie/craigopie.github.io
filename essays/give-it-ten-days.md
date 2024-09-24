@@ -14,7 +14,7 @@ labels:
 
 ### JavaScript feels like a Frankenstein of Python and C
 
-The syntax for JavaScript is largely taken from C with few differences which include objects and the ‘with’ requirement.  JavaScript is also a dynamically and weakly typed scripting language that offers cross-platform support, similar to Python.  In fact - for the name being “Java” Script - it doesn’t feel too much like Java.  Java is statically typed, offers effective object encapsulation, and uses class-based object types.  There is a reason for these differences though, and it’s simple.  Java was written by Sun Microsystems and JavaScript was written by Netscape; moreover, JavaScript was written by Brendan Eich in just 10 days.
+The syntax for JavaScript is largely taken from C with few differences which include objects and the ‘with’ statement.  JavaScript is also a dynamically and weakly typed scripting language that offers cross-platform support, similar to Python.  In fact - for the name being “Java” Script - it doesn’t feel too much like Java.  Java is statically typed, offers effective object encapsulation, and uses class-based object types.  There is a reason for these differences though, and it’s simple.  Java was written by Sun Microsystems and JavaScript was written by Netscape; moreover, JavaScript was written by Brendan Eich in just 10 days.
 
 ### JavaScript was not written to be a general purpose programming language
 

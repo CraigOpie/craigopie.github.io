@@ -2,14 +2,14 @@
 layout: requirement
 type: requirement
 image: images/encryption.jpg
-title: requirement of Purpose
+title: Statement of Purpose
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-25
 labels:
   - PhD Portfolio
 ---
 
-*This page presents my requirement of purpose in computer science as required for the [ICS Ph.D. Portfolio](https://philipmjohnson.org/essays/why-and-how-to-write-a-high-quality-phd-portfolio.html). It summarizes my personal and professional history, adversity, and resiliency.*
+*This page presents my statement of purpose in computer science as required for the [ICS Ph.D. Portfolio](https://philipmjohnson.org/essays/why-and-how-to-write-a-high-quality-phd-portfolio.html). It summarizes my personal and professional history, adversity, and resiliency.*
 
 ### Introduction
 

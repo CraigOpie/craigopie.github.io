@@ -29,13 +29,8 @@ The virtual network driver can be loaded and unloaded using standard Linux kerne
 - Lydia Sollis
 
 ### Table of Contents
-1. [Overview](#overview)
-1. [Features](#features)
-1. [Prerequisites](#prerequisites)
-1. [Building](#building)
-1. [Usage](#usage)
-1. [Developer Information](#developer-information)
-1. [Troubleshooting](#troubleshooting)
+- [Developer Information](#developer-information)
+  - [Troubleshooting](#troubleshooting)
 
 ### Features
 
@@ -334,7 +329,7 @@ This project was developed and tested using Visual Studio Code on Fedora Core 38
 
 If you encounter issues with the virtual network driver, follow these basic debugging steps:
 1. Check the output of the `dmesg` command for any error messages or warnings related to the virtual network driver.
-1. Use the `printk` function in the virtual network driver source code to output debug information to the kernel log. Make sure to recompile and reload the module after adding or modifying any `printk` portfolio.
+1. Use the `printk` function in the virtual network driver source code to output debug information to the kernel log. Make sure to recompile and reload the module after adding or modifying any `printk` statements.
 1. Use the `modinfo` command to inspect the virtual network driver module and ensure that it was built with the correct kernel version:
 
 ```bash
