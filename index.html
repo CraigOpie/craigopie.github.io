@@ -2,12 +2,12 @@
 layout: default
 robots: noindex
 ---
-{% assign statement_pages = site.pages | where: "type", "statement"  | where_exp: "page", "page.draft != true" %}
+{% assign requirement_pages = site.pages | where: "type", "requirement"  | where_exp: "page", "page.draft != true" %}
 {% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
-{% assign num_statements = statement_pages.size %}
+{% assign num_portfolio = requirement_pages.size %}
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
-{% include {{ site.theme-statements }} %}
+{% include {{ site.theme-portfolio }} %}
 {% include {{ site.theme-essays }} %}
 {% include {{ site.theme-projects }} %}

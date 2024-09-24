@@ -1,0 +1,9 @@
+<h2 id="portfolio">PhD Portfolio</h2>
+<ul class="timeline">
+  {% assign requirement_pages = site.pages | where: "type", "requirement" | sort: "date" | reverse %}
+  {% for page in requirement_pages %}
+    {% unless page.draft %}
+      {% include requirement-row.html page=page %}
+    {% endunless %}
+  {% endfor %}
+</ul>

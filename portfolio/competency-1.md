@@ -1,6 +1,6 @@
 ---
-layout: statement
-type: statement
+layout: requirement
+type: requirement
 image: images/encryption.jpg
 title: Evidence of Core Competency
 # All dates must be YYYY-MM-DD format!
