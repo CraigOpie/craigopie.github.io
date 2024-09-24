@@ -4,7 +4,10 @@ robots: noindex
 ---
 {% assign essay_pages = site.pages | where: "type", "essay"  | where_exp: "page", "page.draft != true" %}
 {% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
+{% assign statement_pages = site.pages | where: "type", "statement"  | where_exp: "page", "page.draft != true" %}
 {% assign num_essays = essay_pages.size %}
 {% assign num_projects = project_pages.size %}
-{% include {{ site.theme-projects }} %}
+{% assign num_statements = statement_pages.size %}
 {% include {{ site.theme-essays }} %}
+{% include {{ site.theme-projects }} %}
+{% include {{ site.theme-statements }} %}

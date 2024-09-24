@@ -1,0 +1,9 @@
+<h2 id="statements">Statements of Purpose</h2>
+<ul class="timeline">
+  {% assign statement_pages = site.pages | where: "type", "statement" | sort: "date" | reverse %}
+  {% for page in statement_pages %}
+    {% unless page.draft %}
+      {% include statement-row.html page=page %}
+    {% endunless %}
+  {% endfor %}
+</ul>
