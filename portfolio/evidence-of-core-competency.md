@@ -1,7 +1,7 @@
 ---
 layout: requirement
 type: requirement
-image: images/encryption.jpg
+image: images/portfolio/evidence-of-core-competency.jpg
 title: Evidence of Core Competency
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-23

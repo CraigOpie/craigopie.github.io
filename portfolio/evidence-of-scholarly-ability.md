@@ -1,7 +1,7 @@
 ---
 layout: requirement
 type: requirement
-image: images/encryption.jpg
+image: images/portfolio/evidence-of-scholarly-ability.jpg
 title: Evidence of Scholarly Ability
 # All dates must be YYYY-MM-DD format!
 date: 2024-09-23

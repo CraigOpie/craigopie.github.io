@@ -1,7 +1,7 @@
 ---
 layout: requirement
 type: requirement
-image: images/encryption.jpg
+image: images/portfolio/statement-of-purpose.jpg
 title: Statement of Purpose
 # All dates must be YYYY-MM-DD format!
 date: 2024-01-25
