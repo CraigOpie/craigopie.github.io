@@ -7,6 +7,14 @@ layout: default
 <div style="padding-top: 20px" class="ui container ">
   <p>I'm sorry, that URL could not be found. Perhaps you were looking for one of the following:</p>
 
+  <h3>Statements of Purpose</h3>
+  <ul>
+    {% assign statement_pages = site.pages | where: "type", "statement" | sort: "date" | reverse %}
+    {% for page in statement_pages %}
+    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+  </ul>
+
   <h3>Essays</h3>
   <ul>
     {% assign essay_pages = site.pages | where: "type", "essay" | sort: "date" | reverse %}

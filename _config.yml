@@ -19,6 +19,7 @@ bio-page-label: Resume
 theme-home: theme-home.html
 theme-projects: theme-projects.html
 theme-essays: theme-essays.html
+theme-statements: theme-statements.html
 theme-bio: theme-bio.html
 rouge-theme: igorpro
 
