@@ -3,7 +3,7 @@
   {% assign essay_pages = site.pages | where: "type", "statement-of-purpose" | sort: "date" | reverse %}
   {% for page in essay_pages %}
     {% unless page.draft %}
-      {% include essay-row.html page=page %}
+      {% include statement-of-purpose-row.html page=page %}
     {% endunless %}
   {% endfor %}
 </ul>

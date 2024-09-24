@@ -1,0 +1,24 @@
+<li class="timeline-inverted">
+    <div class="timeline-image">
+      {% if include.page.image %}
+      <img class="img-me" src="{{ site.baseurl }}/{{ include.page.image }}" alt="">
+      {% endif %}
+    </div>
+    <div class="timeline-panel">
+      <div class="timeline-heading">
+        {% if page.projecturl %}
+        <h4><a href="{{ site.baseurl }}{{ include.page.url }}">{{ include.page.title }}</a></h4>
+        {% else %}
+        <h4><a href="{{ site.baseurl}}{{ include.page.url }}">{{ include.page.title }}</a></h4>
+        {% endif %}
+      </div>
+      <div class="timeline-body">
+        {{ include.page.content | markdownify | strip_html | truncatewords: 25 }}
+      </div>
+      <div class="ui mini labels">
+        {% for label in include.page.labels %}
+        <div class="ui basic label">{{ label }}</div>
+        {% endfor %}
+      </div>
+    </div>
+</li>
