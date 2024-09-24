@@ -1,6 +1,6 @@
 ---
 layout: statement
-type: essay
+type: statement
 image: images/encryption.jpg
 title: Clever Recursion - Finding Not So Clever Encryption
 # All dates must be YYYY-MM-DD format!
