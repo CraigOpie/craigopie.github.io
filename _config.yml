@@ -20,6 +20,8 @@ theme-home: theme-home.html
 theme-projects: theme-projects.html
 theme-essays: theme-essays.html
 theme-statements: theme-statements.html
+theme-competencies: theme-competencies.html
+theme-abilities: theme-abilities.html
 theme-bio: theme-bio.html
 rouge-theme: igorpro
 

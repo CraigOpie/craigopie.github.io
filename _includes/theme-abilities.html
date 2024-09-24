@@ -1,0 +1,9 @@
+<h2 id="abilities">Evidence of Scholarly Ability</h2>
+<ul class="timeline">
+  {% assign ability_pages = site.pages | where: "type", "ability" | sort: "date" | reverse %}
+  {% for page in ability_pages %}
+    {% unless page.draft %}
+      {% include ability-row.html page=page %}
+    {% endunless %}
+  {% endfor %}
+</ul>
