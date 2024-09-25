@@ -4,7 +4,7 @@ type: requirement
 image: images/portfolio/statement-of-purpose.jpg
 title: Statement of Purpose
 # All dates must be YYYY-MM-DD format!
-date: 2024-01-25
+date: 2024-09-24
 labels:
   - PhD Portfolio
 ---
