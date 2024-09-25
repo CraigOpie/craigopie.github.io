@@ -13,7 +13,31 @@ labels:
 
 ### PhD Proposal
 
-### Literature Review
+**Dynamic Zero Trust Network Architectures for Mobile and Satellite Communications Using Quantum-Resistant VPNs**
+
+**Abstract**: This research will investigate the design and implementation of dynamic zero trust network architectures that leverage quantum-resistant VPNs for secure communication in mobile and satellite environments. The proposed architecture may use the QUIC protocol to ensure resilient and low-latency connections, even in high-latency or intermittent connectivity scenarios. The VPN framework may feature dynamic routing and access control policies based on real-time network conditions and user roles, enforced through a secure connector and relay system. The dissertation may evaluate the security and performance of this architecture in simulated mobile and satellite communication scenarios and explore its applicability to securing critical infrastructure networks in remote and high-risk environments.
+
+**Key Areas**:
+- Design of a dynamic zero trust network architecture using quantum-resistant VPNs for mobile and satellite communications.
+- Security and performance evaluation of the architecture in simulated environments with variable connectivity.
+- Development of dynamic routing and access control policies for secure and efficient communication.
+- Analysis of the architecture's applicability to critical infrastructure and other high-risk environments.
+
+Full Paper is in Development
+
+### Literature Review(s)
+
+**A Comprehensive Literature Review on the Security and Performance of QUIC Protocol for Dynamic Zero Trust Architectures in Mobile and Satellite Communications**
+
+**Abstract**: This literature review explores the existing research on the QUIC protocol, focusing on its potential to support dynamic zero trust network architectures in mobile and satellite communications. The review covers a wide range of topics, including performance comparisons between TCP/IP and QUIC, post-quantum adaptations, and security challenges associated with QUIC in complex network environments. Key studies analyzed include performance evaluations in cloud networking and anonymity networks like Tor, multipath QUIC implementations, and the protocol's behavior in integrated satellite and terrestrial networks.
+
+Current research highlights the advantages of QUIC in reducing latency and improving connection reliability, essential for environments with high-latency or intermittent connectivity. However, security vulnerabilities such as 0-RTT replay attacks and weaknesses in handshake mechanisms present significant challenges for its adoption in critical infrastructure networks. This review also examines recent advances in formal analysis and symbolic model checking of the QUIC handshake, providing insights into potential security improvements.
+
+In parallel, an empirical study is being conducted using the Rust programming language and the quinn crate to capture and analyze QUIC network traffic, comparing these findings with formal models of the protocol's handshake. This practical analysis aims to identify gaps between theoretical security models and real-world implementations.
+
+The outcomes of this literature review will inform the design of a quantum-resistant VPN framework that leverages the QUIC protocol for secure, resilient communication in mobile and satellite environments. By synthesizing current research and identifying areas for innovation, this review will lay the groundwork for developing a dynamic zero trust architecture capable of meeting the unique security and performance requirements of critical infrastructure in the Pacific region.
+
+Full Paper is in Development
 
 ### MS Degree Thesis
 
