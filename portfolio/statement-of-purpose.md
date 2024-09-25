@@ -9,7 +9,7 @@ labels:
   - PhD Portfolio
 ---
 
-*This page presents my statement of purpose in computer science as required for the [ICS Ph.D. Portfolio](https://philipmjohnson.org/essays/why-and-how-to-write-a-high-quality-phd-portfolio.html). It summarizes my personal and professional history, adversity, resiliency, and interests in product development.*
+*This page presents my statement of purpose in computer science as required for the [ICS Ph.D. Portfolio](https://philipmjohnson.org/essays/why-and-how-to-write-a-high-quality-phd-portfolio.html). It summarizes my personal and professional history and interests in research, teaching, service, and product development.*
 
 ### Introduction
 
